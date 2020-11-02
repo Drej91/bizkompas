@@ -1,4 +1,5 @@
 import React from "react";
+import MainContent from "../MainContent/MainContent";
 import "./HomePage.css";
 
 const HomePage = () => {
@@ -9,6 +10,7 @@ const HomePage = () => {
           <h1>Dobrodosli na nas sajt</h1>
         </div>
       </div>
+      <MainContent />
     </div>
   );
 };

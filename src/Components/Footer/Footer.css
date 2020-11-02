@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  border-top: 1px solid #bbb;
+  background-color: rgba(238, 238, 238, 0.4);
+}
+
+.left-div {
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+  height: 100%;
+}
+
+.center-div {
+  justify-content: center;
+  width: 33%;
+  background-color: blue;
+  color: #fff;
+}
+
+.right-div {
+  justify-content: center;
+  width: 33%;
+}
