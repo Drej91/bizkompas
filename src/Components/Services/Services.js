@@ -1,10 +1,14 @@
 import React from "react";
+import "../Services/Services.css";
 
 const Services = () => {
   return (
-    <div>
-      <p>Services</p>
-    </div>
+    <>
+      <div className="contentWrapper">
+        <p className="title">Usluge i cene</p>
+        <div className="priceWraper"></div>
+      </div>
+    </>
   );
 };
 

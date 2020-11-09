@@ -16,10 +16,11 @@
 
 .imageWrapper {
   width: 500px;
+  margin-top: 5px;
 }
 
-img {
-  width: 420px;
+.mainContentImg {
+  width: 500px;
   height: 280px;
   border-radius: 10px;
 }

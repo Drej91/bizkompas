@@ -1,0 +1,14 @@
+.contentWrapper {
+  margin-top: 90px;
+}
+
+.title {
+  color: rgb(0, 32, 96);
+  font-weight: bold;
+}
+
+.priceWrapper {
+  background-color: gray;
+  display: flex;
+  width: 100%;
+}

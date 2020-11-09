@@ -8,7 +8,11 @@ const Footer = () => {
       <div className="center-div">
         <p>Bizkompas</p>
       </div>
-      <div className="right-div">Right</div>
+      <div className="right-div">
+        <a href="mailto:ceganjac.miodrag@gmail.com">
+          <p className="emailFotter">ceganjac.miodrag@gmail.com</p>
+        </a>
+      </div>
     </div>
   );
 };

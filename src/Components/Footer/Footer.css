@@ -7,7 +7,7 @@
   align-items: center;
   width: 100%;
   border-top: 1px solid #bbb;
-  background-color: rgba(238, 238, 238, 0.4);
+  background-color: rgba(238, 238, 238);
 }
 
 .left-div {
@@ -20,11 +20,19 @@
 .center-div {
   justify-content: center;
   width: 33%;
-  background-color: blue;
-  color: #fff;
+  color: rgb(0, 32, 96);
+  font-weight: bold;
 }
 
 .right-div {
   justify-content: center;
   width: 33%;
+}
+a {
+  text-decoration: none;
+}
+.emailFotter {
+  font-style: italic;
+  text-decoration: none;
+  color: rgb(0, 32, 96);
 }

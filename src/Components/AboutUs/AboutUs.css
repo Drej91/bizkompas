@@ -1,0 +1,21 @@
+.container {
+  padding: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  border-top: 1px solid blue;
+  border-bottom: 1px solid blue;
+}
+
+.aboutUsImg {
+  width: 600px;
+  height: 350px;
+}
+.aboutUsTextWrapper {
+  width: 800px;
+}
