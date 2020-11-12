@@ -31,6 +31,7 @@
   flex-direction: row;
   justify-content: space-around;
   width: 40%;
+  margin-left: auto;
 }
 
 .navbar-link {
@@ -43,4 +44,13 @@
   font-size: 18px;
   text-decoration: none;
   color: rgb(0, 32, 96);
+}
+
+.navbarIcon {
+  width: 40px;
+  height: 40px;
+  align-self: center;
+  color: rgb(0, 32, 96);
+  margin-right: 25px;
+  cursor: pointer;
 }
