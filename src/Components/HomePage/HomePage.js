@@ -7,7 +7,10 @@ const HomePage = () => {
     <div>
       <div className="hero-wrapper">
         <div className="hero-content">
-          <h1>Dobrodosli na nas sajt</h1>
+          <h1 className="hero-text">
+            “Don’t let the fear of losing be greater than the excitement of
+            winning.” – Robert Kiyosaki
+          </h1>
         </div>
       </div>
       <MainContent />
