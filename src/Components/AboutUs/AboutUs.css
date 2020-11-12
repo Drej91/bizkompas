@@ -8,8 +8,9 @@
   justify-content: center;
   align-items: center;
   margin-top: 70px;
-  border-top: 1px solid blue;
-  border-bottom: 1px solid blue;
+  margin-bottom: 50px;
+  border-top: 1px solid rgb(0, 32, 96);
+  border-bottom: 1px solid rgb(0, 32, 96);
 }
 
 .aboutUsImg {
