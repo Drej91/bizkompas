@@ -1,28 +1,61 @@
 import React from "react";
 import "./MainContent.css";
-import image from "../../assets/Images/image2.jpg";
+import { FaBook, FaBeer } from "react-icons/fa";
 
 const MainContent = () => {
   return (
     <div className="mainContent-wrapper">
-      <h3>MainContent</h3>
+      <h3>Konsultantske usluge</h3>
       <div className="mainContentDiv">
-        <div className="imageWrapper">
-          <img src={image} alt="mainImage" className="mainContentImg" />
-        </div>
-        <div className="textWrapper">
-          <p>
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less normal
-            distribution of letters, as opposed to using 'Content here, content
-            here', making it look like readable English. Many desktop publishing
-            packages and web page editors now use Lorem Ipsum as their default
-            model text, and a search for 'lorem ipsum' will uncover many web
-            sites still in their infancy. Various versions have evolved over the
-            years, sometimes by accident, sometimes on purpose (injected humour
-            and the like).
-          </p>
+        <div className="upperContent">
+          <div class="upperCard">
+            <div className="iconWrapper">
+              <FaBook className="iconsMainScreen" />
+            </div>
+            <div className="cardTitleWrapper">
+              <p>Knjigovodstvene procedure</p>
+            </div>
+          </div>
+          <div class="upperCard">
+            <div className="iconWrapper">
+              <FaBeer className="iconsMainScreen" />
+            </div>
+            <div className="cardTitleWrapper">
+              <p>Analize poslovanja</p>
+            </div>
+          </div>
+          <div class="upperCard">
+            <div className="iconWrapper">
+              <FaBeer className="iconsMainScreen" />
+            </div>
+            <div className="cardTitleWrapper">
+              <p>Kontrola troškova</p>
+            </div>
+          </div>
+          <div class="upperCard">
+            <div className="iconWrapper">
+              <FaBeer className="iconsMainScreen" />
+            </div>
+            <div className="cardTitleWrapper">
+              <p>Kadrovska organizacija</p>
+            </div>
+          </div>
+          <div class="upperCard">
+            <div className="iconWrapper">
+              <FaBeer className="iconsMainScreen" />
+            </div>
+            <div className="cardTitleWrapper">
+              <p>Poreski konsalting</p>
+            </div>
+          </div>
+          <div class="upperCard">
+            <div className="iconWrapper">
+              <FaBeer className="iconsMainScreen" />
+            </div>
+            <div className="cardTitleWrapper">
+              <p>Administrativna efikasnost</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
