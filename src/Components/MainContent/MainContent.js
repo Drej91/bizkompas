@@ -5,7 +5,7 @@ import { FaBook, FaBeer } from "react-icons/fa";
 const MainContent = () => {
   return (
     <div className="mainContent-wrapper">
-      <h3>Konsultantske usluge</h3>
+      <h3>KONSULTANTSKE USLUGE</h3>
       <div className="mainContentDiv">
         <div className="upperContent">
           <div class="upperCard">
@@ -58,6 +58,8 @@ const MainContent = () => {
           </div>
         </div>
       </div>
+      <h3>BIZNIS PODRŠKA</h3>
+      <div className="lowerContent"></div>
     </div>
   );
 };
