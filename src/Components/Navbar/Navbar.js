@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 import { BiAlignRight } from "react-icons/bi";
+import Logo from "../../assets/Images/Logo.svg";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -13,7 +14,11 @@ const Navbar = () => {
         <div className="navbar-container">
           <div className="logo-wrapper">
             <Link to="/" className="navbar-logo" onClick={() => setActive("")}>
-              <p>Bizkompas</p>
+              {/* <img src={Logo} alt="logo" className="logo" /> */}
+
+              <span>
+                <p>Bizkompas</p>
+              </span>
             </Link>
           </div>
           {showLinks === true ? (

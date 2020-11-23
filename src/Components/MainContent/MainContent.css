@@ -62,4 +62,21 @@
   flex-wrap: wrap;
   width: 70%;
   margin-bottom: 50px;
+  justify-content: center;
+}
+
+.lowerCard {
+  display: flex;
+  flex: 1 0 30%;
+  flex-direction: column;
+  margin: 10px;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 5px;
+}
+
+.categoryImage {
+  height: 180px;
+  width: 260px;
+  border-radius: 10px;
 }
