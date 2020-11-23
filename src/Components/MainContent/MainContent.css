@@ -60,7 +60,7 @@
 .lowerContent {
   display: flex;
   flex-wrap: wrap;
-  width: 70%;
+  width: 80%;
   margin-bottom: 50px;
   justify-content: center;
 }
@@ -77,6 +77,6 @@
 
 .categoryImage {
   height: 180px;
-  width: 260px;
+  width: 280px;
   border-radius: 10px;
 }
