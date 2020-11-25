@@ -18,7 +18,7 @@
 .upperContent {
   display: flex;
   flex-wrap: wrap;
-  width: 70%;
+  width: 80%;
   margin-bottom: 50px;
 }
 
@@ -27,11 +27,11 @@
   flex: 1 0 30%;
   flex-direction: column;
   margin: 10px;
-  height: 180px;
-  border: 1px solid black;
+  height: 200px;
   align-items: center;
   justify-content: space-between;
   padding-top: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .iconWrapper {
