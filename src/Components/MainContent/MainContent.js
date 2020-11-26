@@ -65,11 +65,11 @@ const MainContent = () => {
         </div>
       </div>
       <h3>BIZNIS PODRŠKA</h3>
+      <p>
+        U cilju efikasnije poslovne logistike preduzeća, klijentima su na
+        raspolaganju usluge poslovnih partnera iz oblasti:
+      </p>
       <div className="lowerContent">
-        <p>
-          U cilju efikasnije poslovne logistike preduzeća, klijentima su na
-          raspolaganju usluge poslovnih partnera iz oblasti:
-        </p>
         <div className="lowerCard">
           <img src={Accountant} alt="Accountant" className="categoryImage" />
           <p>Računovodstvene usluge</p>

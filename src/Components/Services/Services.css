@@ -1,5 +1,6 @@
 .contentWrapper {
   margin-top: 90px;
+  margin-bottom: 70px;
 }
 
 .title {
@@ -8,7 +9,46 @@
 }
 
 .priceWrapper {
-  background-color: gray;
   display: flex;
-  width: 100%;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.singleServiceWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: 1px solid gray;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.serviceTitle {
+  color: rgb(0, 32, 96);
+}
+.serviceDescription {
+  text-align: left;
+}
+
+.lowerPriceWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+table th {
+  width: 150px;
+  border: 1px solid black;
+}
+
+th {
+  background-color: rgb(0, 32, 96);
+  color: #fff;
+}
+
+.packet {
+  justify-content: center;
 }
