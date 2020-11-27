@@ -78,7 +78,7 @@ const Services = () => {
                 </p>
               </div>
             </div>
-            <div class="md-col-3 mr1  ">
+            <div class="md-col-3 mr1">
               <div class="p2 bg-white border rounded ">
                 <h1 class="h2 mt0">Know-how mid paket</h1>
                 <p class="mb0">
