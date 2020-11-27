@@ -13,53 +13,55 @@ const MainContent = () => {
     <div className="mainContent-wrapper">
       <h3>KONSULTANTSKE USLUGE</h3>
       <div className="mainContentDiv">
-        <div className="upperContent">
-          <div class="upperCard">
-            <div className="iconWrapper">
-              <FaBook className="iconsMainScreen" />
+        <div className="upperContentWrapper">
+          <div className="upperContent">
+            <div class="upperCard">
+              <div className="iconWrapper">
+                <FaBook className="iconsMainScreen" />
+              </div>
+              <div className="cardTitleWrapper">
+                <p>Knjigovodstvene procedure</p>
+              </div>
             </div>
-            <div className="cardTitleWrapper">
-              <p>Knjigovodstvene procedure</p>
+            <div class="upperCard">
+              <div className="iconWrapper">
+                <FaBeer className="iconsMainScreen" />
+              </div>
+              <div className="cardTitleWrapper">
+                <p>Analize poslovanja</p>
+              </div>
             </div>
-          </div>
-          <div class="upperCard">
-            <div className="iconWrapper">
-              <FaBeer className="iconsMainScreen" />
+            <div class="upperCard">
+              <div className="iconWrapper">
+                <FaBeer className="iconsMainScreen" />
+              </div>
+              <div className="cardTitleWrapper">
+                <p>Kontrola troškova</p>
+              </div>
             </div>
-            <div className="cardTitleWrapper">
-              <p>Analize poslovanja</p>
+            <div class="upperCard">
+              <div className="iconWrapper">
+                <FaBeer className="iconsMainScreen" />
+              </div>
+              <div className="cardTitleWrapper">
+                <p>Kadrovska organizacija</p>
+              </div>
             </div>
-          </div>
-          <div class="upperCard">
-            <div className="iconWrapper">
-              <FaBeer className="iconsMainScreen" />
+            <div class="upperCard">
+              <div className="iconWrapper">
+                <FaBeer className="iconsMainScreen" />
+              </div>
+              <div className="cardTitleWrapper">
+                <p>Poreski konsalting</p>
+              </div>
             </div>
-            <div className="cardTitleWrapper">
-              <p>Kontrola troškova</p>
-            </div>
-          </div>
-          <div class="upperCard">
-            <div className="iconWrapper">
-              <FaBeer className="iconsMainScreen" />
-            </div>
-            <div className="cardTitleWrapper">
-              <p>Kadrovska organizacija</p>
-            </div>
-          </div>
-          <div class="upperCard">
-            <div className="iconWrapper">
-              <FaBeer className="iconsMainScreen" />
-            </div>
-            <div className="cardTitleWrapper">
-              <p>Poreski konsalting</p>
-            </div>
-          </div>
-          <div class="upperCard">
-            <div className="iconWrapper">
-              <FaBeer className="iconsMainScreen" />
-            </div>
-            <div className="cardTitleWrapper">
-              <p>Administrativna efikasnost</p>
+            <div class="upperCard">
+              <div className="iconWrapper">
+                <FaBeer className="iconsMainScreen" />
+              </div>
+              <div className="cardTitleWrapper">
+                <p>Administrativna efikasnost</p>
+              </div>
             </div>
           </div>
         </div>
