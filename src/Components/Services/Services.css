@@ -1,11 +1,12 @@
 .contentWrapper {
-  margin-top: 90px;
-  margin-bottom: 70px;
+  margin-top: 70px;
+  margin-bottom: 60px;
+  background-color: rgba(238, 238, 238);
+  padding-top: 10px;
 }
 
 .title {
   color: rgb(0, 32, 96);
-  font-weight: bold;
 }
 
 .priceWrapper {
@@ -21,9 +22,11 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  border: 1px solid gray;
+  border: 1px solid rgb(0, 32, 96);
   margin-bottom: 10px;
   padding: 5px;
+  background-color: #fff;
+  border-radius: 10px;
 }
 .serviceTitle {
   color: rgb(0, 32, 96);
@@ -51,4 +54,9 @@ th {
 
 .packet {
   justify-content: center;
+}
+
+.cards {
+  background-color: #fff;
+  color: rgb(0, 32, 96);
 }

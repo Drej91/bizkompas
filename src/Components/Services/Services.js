@@ -37,13 +37,13 @@ const Services = () => {
   return (
     <>
       <div className="contentWrapper">
-        <p className="title h3">Usluge i cene</p>
+        <p className="title h3 bold">Usluge i cene</p>
         <div className="priceWrapper">
           {data.map((val, index) => {
             return (
               <div key={index} className="singleServiceWrapper">
-                <h4 className="serviceTitle">{val.title}</h4>
-                <p className="serviceDescription">{val.description}</p>
+                <p className="serviceTitle h4 bold">{val.title}</p>
+                <p className="left-align">{val.description}</p>
               </div>
             );
           })}
@@ -70,7 +70,7 @@ const Services = () => {
           <p>Paketi usluga na mesečnom nivou:</p>
           <div class="flex flex-justify packet">
             <div class="md-col-3 align-top">
-              <div class="p2 bg-white border rounded">
+              <div class="p2 border rounded cards">
                 <h1 class="h2 mt0">Know-how low paket</h1>
                 <p class="mb0">
                   Okvirna bezkontaktna mesečna dostupnost do 20 radnih časova.
@@ -78,8 +78,8 @@ const Services = () => {
                 </p>
               </div>
             </div>
-            <div class="md-col-3 mr1">
-              <div class="p2 bg-white border rounded ">
+            <div class="md-col-3 mr1 ml1">
+              <div class="p2 border rounded cards">
                 <h1 class="h2 mt0">Know-how mid paket</h1>
                 <p class="mb0">
                   Okvirna bezkontaktna mesečna dostupnost do 50 radnih časova.
@@ -88,7 +88,7 @@ const Services = () => {
               </div>
             </div>
             <div class="md-col-3">
-              <div class="p2 bg-white border rounded">
+              <div class="p2 border rounded cards">
                 <h1 class="h2 mt0">Know-how high paket</h1>
                 <p class="mb0">
                   Okvirna bezkontaktna mesečna dostupnost do 80 radnih časova.
