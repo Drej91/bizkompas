@@ -1,6 +1,13 @@
 import React from "react";
 import "./MainContent.css";
-import { FaBook, FaBeer } from "react-icons/fa";
+import {
+  FaBook,
+  FaChartBar,
+  FaMoneyBillAlt,
+  FaUserCheck,
+  FaCalculator,
+  FaFile,
+} from "react-icons/fa";
 import Taxi from "../../assets/categoriesImages/Taxi.jpg";
 import Accountant from "../../assets/categoriesImages/Accountant.jpg";
 import Cosmetics from "../../assets/categoriesImages/Cosmetics.jpg";
@@ -25,7 +32,7 @@ const MainContent = () => {
             </div>
             <div class="upperCard">
               <div className="iconWrapper">
-                <FaBeer className="iconsMainScreen" />
+                <FaChartBar className="iconsMainScreen" />
               </div>
               <div className="cardTitleWrapper">
                 <p>Analize poslovanja</p>
@@ -33,7 +40,7 @@ const MainContent = () => {
             </div>
             <div class="upperCard">
               <div className="iconWrapper">
-                <FaBeer className="iconsMainScreen" />
+                <FaMoneyBillAlt className="iconsMainScreen" />
               </div>
               <div className="cardTitleWrapper">
                 <p>Kontrola troškova</p>
@@ -41,7 +48,7 @@ const MainContent = () => {
             </div>
             <div class="upperCard">
               <div className="iconWrapper">
-                <FaBeer className="iconsMainScreen" />
+                <FaUserCheck className="iconsMainScreen" />
               </div>
               <div className="cardTitleWrapper">
                 <p>Kadrovska organizacija</p>
@@ -49,7 +56,7 @@ const MainContent = () => {
             </div>
             <div class="upperCard">
               <div className="iconWrapper">
-                <FaBeer className="iconsMainScreen" />
+                <FaCalculator className="iconsMainScreen" />
               </div>
               <div className="cardTitleWrapper">
                 <p>Poreski konsalting</p>
@@ -57,7 +64,7 @@ const MainContent = () => {
             </div>
             <div class="upperCard">
               <div className="iconWrapper">
-                <FaBeer className="iconsMainScreen" />
+                <FaFile className="iconsMainScreen" />
               </div>
               <div className="cardTitleWrapper">
                 <p>Administrativna efikasnost</p>
