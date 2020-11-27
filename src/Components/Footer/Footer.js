@@ -1,16 +1,30 @@
 import React from "react";
 import "./Footer.css";
 
+const scroll = () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+};
 const Footer = () => {
   return (
     <div className="footer">
-      <div className="left-div">Left</div>
+      <div className="left-div">
+        <p className="regular footerText m0">
+          "All rights reserved by Bizkompas"
+        </p>
+        <p className="regular footerText m0">Created by Mrveks</p>
+      </div>
       <div className="center-div">
-        <p>Bizkompas</p>
+        <a
+          className="caps h3 text-decoration-none"
+          href="/"
+          onClick={() => scroll}
+        >
+          Bizkompas
+        </a>
       </div>
       <div className="right-div">
-        <a href="mailto:ceganjac.miodrag@gmail.com">
-          <p className="emailFotter">ceganjac.miodrag@gmail.com</p>
+        <a href="mailto:office@bizkompas.rs">
+          <p className="emailFotter footerText">office@bizkompas.rs</p>
         </a>
       </div>
     </div>
