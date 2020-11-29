@@ -22,7 +22,7 @@ const MainContent = () => {
       <div className="mainContentDiv">
         <div className="upperContentWrapper">
           <div className="upperContent">
-            <div class="upperCard">
+            <div className="upperCard">
               <div className="iconWrapper">
                 <FaBook className="iconsMainScreen" />
               </div>
@@ -30,7 +30,7 @@ const MainContent = () => {
                 <p>Knjigovodstvene procedure</p>
               </div>
             </div>
-            <div class="upperCard">
+            <div className="upperCard">
               <div className="iconWrapper">
                 <FaChartBar className="iconsMainScreen" />
               </div>
@@ -38,7 +38,7 @@ const MainContent = () => {
                 <p>Analize poslovanja</p>
               </div>
             </div>
-            <div class="upperCard">
+            <div className="upperCard">
               <div className="iconWrapper">
                 <FaMoneyBillAlt className="iconsMainScreen" />
               </div>
@@ -46,7 +46,7 @@ const MainContent = () => {
                 <p>Kontrola troškova</p>
               </div>
             </div>
-            <div class="upperCard">
+            <div className="upperCard">
               <div className="iconWrapper">
                 <FaUserCheck className="iconsMainScreen" />
               </div>
@@ -54,7 +54,7 @@ const MainContent = () => {
                 <p>Kadrovska organizacija</p>
               </div>
             </div>
-            <div class="upperCard">
+            <div className="upperCard">
               <div className="iconWrapper">
                 <FaCalculator className="iconsMainScreen" />
               </div>
@@ -62,7 +62,7 @@ const MainContent = () => {
                 <p>Poreski konsalting</p>
               </div>
             </div>
-            <div class="upperCard">
+            <div className="upperCard">
               <div className="iconWrapper">
                 <FaFile className="iconsMainScreen" />
               </div>
@@ -71,6 +71,13 @@ const MainContent = () => {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="middleContentWrapper">
+        <div className="middleImageDiv">
+          <p className="regular bold h2 onImageText">
+            Contact us for more info: office@bizkompas.rs
+          </p>
         </div>
       </div>
       <p className="h3 bold mainContentTitle">BIZNIS PODRŠKA</p>
