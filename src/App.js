@@ -2,7 +2,7 @@ import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import AboutUs from "./Components/AboutUs/AboutUs";
-import Contact from "./Components/Contact/Contact";
+import News from "./Components/News/News";
 import Services from "./Components/Services/Services";
 import HomePage from "./Components/HomePage/HomePage";
 import Footer from "./Components/Footer/Footer";
@@ -16,7 +16,7 @@ function App() {
           <Route path="/" exact component={HomePage} />
           <Route path="/services" component={Services} />
           <Route path="/aboutUs" component={AboutUs} />
-          <Route path="/contact" component={Contact} />
+          <Route path="/news" component={News} />
         </Switch>
         <Footer />
       </Router>

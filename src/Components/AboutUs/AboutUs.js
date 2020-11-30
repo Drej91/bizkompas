@@ -4,12 +4,12 @@ import aboutUs from "../../assets/Images/aboutUs.jpg";
 
 const AboutUs = () => {
   return (
-    <div className="container">
+    <div className="aboutUscontainer">
       <div className="content">
         <h3 className="title">O nama</h3>
         <img src={aboutUs} alt="aboutUs" className="aboutUsImg" />
         <div className="aboutUsTextWrapper">
-          <p>
+          <p className="regular">
             Bizkompas je osnovan sa ciljem da kroz konsultacije i edukacije
             drugih preduzeća, podstakne njihov efikasniji rast i razvoj na
             tržištu. Neretko male promene u organizaciji poslovanja mogu da
@@ -18,7 +18,7 @@ const AboutUs = () => {
             matematiku. Poslovne analize trenutnih i istorijskih raspoloživih
             podataka mogu doprineti budućem povećanju efikasnosti poslovanja.
           </p>
-          <p>
+          <p className="regular">
             Bizkompas nastoji i da kroz saradnju sa partnerima, omogući svojim
             klijentima obavljanje usluga računovodstva, nabavke materijala za
             svakodnevno poslovanje, kao i izrade aplikacija i veb sajtova.
