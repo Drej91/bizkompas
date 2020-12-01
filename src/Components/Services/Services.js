@@ -107,7 +107,7 @@ const Services = () => {
         <p className="title h3">Biznis podrška</p>
         <br />
         <div class="flex flex-column pb3">
-          <p className="regular ml2 mr2">
+          <p className="regular">
             Bizkompas nastoji da svojim klijentima olakša poslovnu logistiku i
             obezbedi osnovna dobra i usluge koja su preduzećima potrebna u
             svakodnevnom poslovanju. Ukoliko su vam potrebne usluge ili dobra iz
