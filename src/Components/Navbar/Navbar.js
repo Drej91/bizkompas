@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar">
-        <div className="navbar-container clearfix mb2">
+        <div className="navbar-container">
           <div className="logo-wrapper left">
             <Link to="/" className="navbar-logo" onClick={() => setActive("")}>
               <span>
