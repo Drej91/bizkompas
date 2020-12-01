@@ -125,6 +125,7 @@
     position: absolute;
     right: 40px;
     cursor: pointer;
+    color: rgb(0, 32, 96);
   }
 
   .navbar-logo {
