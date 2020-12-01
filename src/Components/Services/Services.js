@@ -51,7 +51,7 @@ const Services = () => {
         <p className="title h3">Cenovnik konsalting usluga</p>
         <div className="lowerPriceWrapper">
           <p>Cena usluga po radnom casu:</p>
-          <table class="table">
+          <table className="table">
             <thead>
               <tr>
                 <th>Kontaktno (uzivo)</th>
@@ -68,29 +68,29 @@ const Services = () => {
             </tbody>
           </table>
           <p>Paketi usluga na mesečnom nivou:</p>
-          <div class="flex flex-justify packet">
-            <div class="md-col-3 align-top">
-              <div class="p2 border rounded cards">
-                <h1 class="h2 mt0">Know-how low paket</h1>
-                <p class="mb0">
+          <div className="flex flex-justify packet">
+            <div className="md-col-3 align-top">
+              <div className="p2 border rounded cards">
+                <h1 className="h2 mt0">Know-how low paket</h1>
+                <p className="mb0">
                   Okvirna bezkontaktna mesečna dostupnost do 20 radnih časova.
                   Pošaljite upit radi formiranja cene usluge.
                 </p>
               </div>
             </div>
-            <div class="md-col-3 mr1 ml1">
-              <div class="p2 border rounded cards">
-                <h1 class="h2 mt0">Know-how mid paket</h1>
-                <p class="mb0">
+            <div className="md-col-3">
+              <div className="p2 border rounded cards">
+                <h1 className="h2 mt0">Know-how mid paket</h1>
+                <p className="mb0">
                   Okvirna bezkontaktna mesečna dostupnost do 50 radnih časova.
                   Pošaljite upit radi formiranja cene usluge.
                 </p>
               </div>
             </div>
-            <div class="md-col-3">
-              <div class="p2 border rounded cards">
-                <h1 class="h2 mt0">Know-how high paket</h1>
-                <p class="mb0">
+            <div className="md-col-3">
+              <div className="p2 border rounded cards">
+                <h1 className="h2 mt0">Know-how high paket</h1>
+                <p className="mb0">
                   Okvirna bezkontaktna mesečna dostupnost do 80 radnih časova.
                   Pošaljite upit radi formiranja cene usluge.
                 </p>
@@ -106,7 +106,7 @@ const Services = () => {
         </div>
         <p className="title h3">Biznis podrška</p>
         <br />
-        <div class="flex flex-column pb3">
+        <div className="flex flex-column pb3">
           <p className="regular">
             Bizkompas nastoji da svojim klijentima olakša poslovnu logistiku i
             obezbedi osnovna dobra i usluge koja su preduzećima potrebna u
