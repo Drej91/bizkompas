@@ -81,7 +81,7 @@ const MainContent = () => {
         </div>
       </div>
       <p className="h3 bold mainContentTitle">BIZNIS PODRŠKA</p>
-      <p>
+      <p className="regular justify">
         U cilju efikasnije poslovne logistike preduzeća, klijentima su na
         raspolaganju usluge poslovnih partnera iz oblasti:
       </p>

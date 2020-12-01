@@ -4,7 +4,7 @@ import "./HomePage.css";
 
 const HomePage = () => {
   return (
-    <div>
+    <>
       <div className="hero-wrapper">
         <div className="hero-content">
           <h1 className="hero-text">
@@ -14,7 +14,7 @@ const HomePage = () => {
         </div>
       </div>
       <MainContent />
-    </div>
+    </>
   );
 };
 
