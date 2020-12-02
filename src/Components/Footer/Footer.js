@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="left-div">
           <p className="regular footerText m0">Bizkompas</p>
           <br />
-          <p className="regular footerText m0">
+          <p className="regular footerText m0 justify">
             Beograd, Milana Blagojevića Španca 13
           </p>
           <a href="mailto:office@bizkompas.rs">
