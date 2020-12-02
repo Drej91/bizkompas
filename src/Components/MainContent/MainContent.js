@@ -76,7 +76,7 @@ const MainContent = () => {
       <div className="middleContentWrapper">
         <div className="middleImageDiv">
           <p className="regular bold h2 onImageText">
-            Contact us for more info: office@bizkompas.rs
+            Kontaktirajte nas za više informacija: office@bizkompas.rs
           </p>
         </div>
       </div>
