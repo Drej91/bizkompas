@@ -37,11 +37,7 @@ const Footer = () => {
             </p>
           </div>
           <div className="timeWrapper">
-            <p
-              className="regular footerText"
-              className="regular footerText"
-              style={{ float: "left" }}
-            >
+            <p className="regular footerText" style={{ float: "left" }}>
               Sreda
             </p>
             <p className="regular footerText" style={{ float: "right" }}>
