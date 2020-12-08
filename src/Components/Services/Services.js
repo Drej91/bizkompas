@@ -6,7 +6,7 @@ const Services = () => {
     {
       title: "Knjigovodstvene procedure",
       description:
-        "Zapisivanjem poslovnih promena preduzeća u knjigovodstvu na tačan i ispravan način, omogućava se drugim sektorima preduzeća da efikasno postavljaju dalje planove i strategije u radu. Da bi se poslovne promene preduzeća evidentirale na tačan i ispravan način, potrebno je jasno definisati knjigovodstvene procedure. Kontaktirajte nas ukoliko želite konsultantske akvinosti u vezi definisanja i pisanja knjigovodstvenih procedura.",
+        "Da bi se poslovne promene preduzeća evidentirale na tačan i efikasan način, potrebno je jasno definisati knjigovodstvene procedure. Pogrešno iskazani knjigovodstveni podaci mogu prouzrokovati dalje greške u radu menadžmenta ili drugih sektora preduzeća koji ove podatke svakodnevno koriste. Kontaktirajte nas ukoliko želite konsultantske akvinosti u vezi definisanja i pisanja knjigovodstvenih procedura.",
     },
     {
       title: "Analize poslovanja",
