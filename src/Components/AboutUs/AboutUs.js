@@ -14,14 +14,17 @@ const AboutUs = () => {
             drugih preduzeća, podstakne njihov efikasniji rast i razvoj na
             tržištu. Neretko male promene u organizaciji poslovanja mogu da
             donesu veću poslovnu efikasnost preduzeća. Bizkompas nastoji da
-            alocira ove promene koristeći univerzalni jezik civilizacije –
-            matematiku. Poslovne analize trenutnih i istorijskih raspoloživih
-            podataka mogu doprineti budućem povećanju efikasnosti poslovanja.
+            alocira ove promene koristeći knjigovodstvene i druge raspoložive
+            poslovne podatke . Poslovne analize trenutnih i istorijskih
+            raspoloživih poslovnih podataka mogu doprineti budućem povećanju
+            efikasnosti poslovanja.
           </p>
           <p className="regular">
             Bizkompas nastoji i da kroz saradnju sa partnerima, omogući svojim
             klijentima obavljanje usluga računovodstva, nabavke materijala za
-            svakodnevno poslovanje, kao i izrade aplikacija i veb sajtova.
+            svakodnevno poslovanje, izrade veb aplikacija i sajtova, vođenje
+            društvenih mreža i drugi online marketing, prevođenje dokumenata sa
+            i na engleski jezik, kao i vangradski taksi prevoz.
           </p>
         </div>
       </div>
