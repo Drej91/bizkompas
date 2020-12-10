@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import { AiTwotonePhone, AiOutlineMail } from "react-icons/ai";
 
 const Footer = () => {
   return (
@@ -11,12 +12,18 @@ const Footer = () => {
           <p className="regular  m0 justify">
             Beograd, Milana Blagojevića Španca 13
           </p>
-          <a href="mailto:office@bizkompas.rs">
-            <p className="emailFotter ">office@bizkompas.rs</p>
-          </a>
-          <p className="regular  m0">
-            <a href="tel:+381 64 3408828">+381 64 3408828</a>
-          </p>
+          <div className="footerContactWrapper">
+            <AiOutlineMail />
+            <a href="mailto:office@bizkompas.rs">
+              <p className="emailFotter ">office@bizkompas.rs</p>
+            </a>
+          </div>
+          <div className="footerContactWrapper">
+            <AiTwotonePhone />
+            <a href="tel:+381 64 3408828">
+              <p className="regular  m0">+381 64 3408828</p>
+            </a>
+          </div>
         </div>
         <div className="right-div">
           <div className="timeWrapper">

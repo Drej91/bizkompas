@@ -108,7 +108,7 @@ const MainContent = () => {
         </div>
         <div className="lowerCard">
           <img src={Taxi} alt="Taxi" className="categoryImage" />
-          <p className="h4 subtitles">Taksi prevoz</p>
+          <p className="h4 subtitles">Taksi vangradski prevoz</p>
         </div>
       </div>
     </div>

@@ -71,6 +71,29 @@ a {
   padding-left: 35px;
 }
 
+.footerContactWrapper {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.footerContactWrapper a {
+  margin-left: 12px;
+}
+
+.footerContactWrapper svg {
+  color: rgb(0, 32, 96);
+  height: 20px;
+  width: 20px;
+}
+
+.footerContactWrapper p {
+  margin: 0;
+}
+
 @media only screen and (max-width: 500px) {
   .footer {
     display: flex;
