@@ -36,13 +36,21 @@
   margin: 0;
 }
 .title {
+  padding-top: 15px;
   padding-bottom: 10px;
 }
 
 .bottom-div {
   padding-top: 10px;
-  justify-content: center;
   width: 100%;
+}
+
+.bottom-div p:first-of-type {
+  margin-bottom: 0;
+}
+
+.bottom-div p {
+  margin-top: 0;
 }
 a {
   text-decoration: none;
