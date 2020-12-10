@@ -2,6 +2,7 @@
   padding: 10px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   min-height: 100vh;
 }
 
@@ -10,8 +11,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 70px;
-  margin-bottom: 50px;
+
   border-top: 1px solid rgb(0, 32, 96);
   border-bottom: 1px solid rgb(0, 32, 96);
   width: 100%;
