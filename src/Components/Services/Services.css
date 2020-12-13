@@ -91,6 +91,9 @@ td {
     flex-direction: column;
     align-items: center;
   }
+  .aboutOtherServicesWrapper {
+    width: 90%;
+  }
   .singleOtherServiceWrapper {
     padding: 5px;
   }
