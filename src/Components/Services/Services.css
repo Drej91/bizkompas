@@ -71,14 +71,15 @@ td {
   align-self: center;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   flex-wrap: wrap;
-  width: 60%;
+  width: 70%;
 }
 .singleOtherServiceWrapper {
   display: flex;
   flex-direction: column;
   background-color: #fff;
-  width: 300px;
+  width: 30%;
   justify-content: center;
   align-items: center;
   margin: 10px;
@@ -92,9 +93,10 @@ td {
     align-items: center;
   }
   .aboutOtherServicesWrapper {
-    width: 90%;
+    width: 80%;
   }
   .singleOtherServiceWrapper {
+    width: 80%;
     padding: 5px;
   }
 }
