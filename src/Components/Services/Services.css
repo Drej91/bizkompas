@@ -3,9 +3,6 @@
   margin-bottom: 60px;
   background-color: rgba(238, 238, 238);
   padding-top: 10px;
-}
-
-.title {
   color: rgb(0, 32, 96);
 }
 
@@ -27,12 +24,14 @@
   padding: 5px;
   background-color: #fff;
   border-radius: 10px;
+  width: 80%;
 }
 .serviceTitle {
   color: rgb(0, 32, 96);
 }
 .serviceDescription {
   text-align: left;
+  width: 90%;
 }
 
 .lowerPriceWrapper {
@@ -56,6 +55,10 @@ table th {
   color: #fff;
 }
 
+td {
+  border: 1px solid black;
+}
+
 .packet {
   justify-content: center;
 }
@@ -64,10 +67,31 @@ table th {
   background-color: #fff;
   color: rgb(0, 32, 96);
 }
+.aboutOtherServicesWrapper {
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 60%;
+}
+.singleOtherServiceWrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(0, 32, 96);
+}
 
 @media only screen and (max-width: 500px) {
   .packet {
     flex-direction: column;
     align-items: center;
+  }
+  .singleOtherServiceWrapper {
+    padding: 5px;
   }
 }

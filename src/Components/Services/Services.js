@@ -43,7 +43,9 @@ const Services = () => {
             return (
               <div key={index} className="singleServiceWrapper">
                 <p className="serviceTitle h4 bold">{val.title}</p>
-                <p className="left-align">{val.description}</p>
+                <p className="left-align serviceDescription">
+                  {val.description}
+                </p>
               </div>
             );
           })}
@@ -107,13 +109,47 @@ const Services = () => {
         <p className="title h3">Biznis podrška</p>
         <br />
         <div className="flex flex-column pb3">
-          <p className="regular">
+          <p className="regular ml4 mr4 justify h4">
             Bizkompas nastoji da svojim klijentima olakša poslovnu logistiku i
             obezbedi osnovna dobra i usluge koja su preduzećima potrebna u
             svakodnevnom poslovanju. Ukoliko su vam potrebne usluge ili dobra iz
             oblasti delatnosti naših poslovnih partnera, pošaljite upit, a mi
             ćemo vam poslati odgovor ili ponudu u što kraćem roku.
           </p>
+          <div className="aboutOtherServicesWrapper p3">
+            <div className="singleOtherServiceWrapper">
+              <p className="h4">Računovodstvene usluge:</p>
+              <p>- Vođenje knjiga preduzeća</p>
+              <p>- Kadrovski i ostali obračuni</p>
+              <p>- Izrada završnog računa</p>
+              <p>- Osnivanje preduzeća</p>
+              <p>- Izveštavanje o poslovanju</p>
+            </div>
+            <div className="singleOtherServiceWrapper">
+              <p className="h4">Izrada web sajtova i aplikacija</p>
+              <p>- Izrada web sajta koristeći postojeće šablone sa interneta</p>
+              <p>- Izrada web sajta po nacrtu klijenta</p>
+              <p>- Održavanje web sajta </p>
+              <p>- Izrada mobilne aplikacije</p>
+            </div>
+            <div className="singleOtherServiceWrapper">
+              <p className="h4">Nabavka sredstava za hemiju</p>
+              <p>- Ukoro na sajtu</p>
+            </div>
+            <div className="singleOtherServiceWrapper">
+              <p className="h4">Online marketing</p>
+              <p>- Ukoro na sajtu</p>
+            </div>
+            <div className="singleOtherServiceWrapper">
+              <p className="h4">Usluge prevođenja – engleski jezik</p>
+              <p>- Ukoro na sajtu</p>
+            </div>
+            <div className="singleOtherServiceWrapper">
+              <p className="h4">Taksi vangradski prevoz</p>
+              <p>- Vožnja u jednom pravcu, cena 0,7 eur po KM</p>
+              <p>- Vožnja u oba pravca, cena 0,5 eur po KM</p>
+            </div>
+          </div>
         </div>
       </div>
     </>
