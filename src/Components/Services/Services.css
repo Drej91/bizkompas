@@ -27,11 +27,11 @@
   width: 80%;
 }
 .serviceTitle {
+  align-self: center;
   color: rgb(0, 32, 96);
 }
 .serviceDescription {
-  text-align: left;
-  width: 90%;
+  text-align: center;
 }
 
 .lowerPriceWrapper {

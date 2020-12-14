@@ -31,7 +31,7 @@ const Services = () => {
     {
       title: "Administrativna efikasnost",
       description:
-        "Moderno poslovanje danas je gotovo nemoguće zamisliti bez dobro organizovane administracije. Loše organizovana administracija može dovesti po pojave pogrešno utrošenog radnog vremena kadrova koja dalje može uticati na efiksanost poslovanja. Stoga preduzeća trebaju težiti što većoj administrativnoj efikasnosti.Kontaktirajte nas ukoliko želite da vam pomognemo da na što efikasniji način organizujete vaše administrativne aktivnosti.",
+        "Moderno poslovanje danas je gotovo nemoguće zamisliti bez dobro organizovane administracije. Loše organizovana administracija može dovesti do pojave pogrešno utrošenog radnog vremena kadrova koja dalje može uticati na efiksanost poslovanja. Stoga preduzeća trebaju težiti što većoj administrativnoj efikasnosti.Kontaktirajte nas ukoliko želite da vam pomognemo da na što efikasniji način organizujete vaše administrativne aktivnosti.",
     },
   ];
   return (
@@ -42,7 +42,7 @@ const Services = () => {
           {data.map((val, index) => {
             return (
               <div key={index} className="singleServiceWrapper">
-                <p className="serviceTitle h4 bold">{val.title}</p>
+                <p className="serviceTitle h3 bold">{val.title}</p>
                 <p className="left-align serviceDescription">
                   {val.description}
                 </p>
@@ -52,7 +52,7 @@ const Services = () => {
         </div>
         <p className="title h3">Cenovnik konsalting usluga</p>
         <div className="lowerPriceWrapper">
-          <p>Cena usluga po radnom casu:</p>
+          <p>Cena usluga po radnom času:</p>
           <table className="table">
             <thead>
               <tr>
@@ -63,7 +63,7 @@ const Services = () => {
             </thead>
             <tbody>
               <tr>
-                <td>Po radnom casu / 2.700,00 rsd</td>
+                <td>Po radnom času / 2.700,00 rsd</td>
                 <td>Po email-u / od 1.000,00 rsd do 2.000,00</td>
                 <td>Po radnom času / 2.000,00 rsd</td>
               </tr>
