@@ -75,7 +75,6 @@
   display: flex;
   width: 100%;
   justify-content: center;
-  background: rgb(0, 32, 96);
   background: -webkit-linear-gradient(
     to right,
     rgba(238, 238, 238),
@@ -109,8 +108,8 @@
   justify-content: center;
   margin-bottom: 20px;
   margin-top: 20px;
-  background-color: yellow;
   border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .onImageText {
