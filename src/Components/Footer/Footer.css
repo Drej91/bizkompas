@@ -15,19 +15,20 @@
 }
 
 .left-div {
+  display: flex;
+  flex-direction: column;
   padding-top: 15px;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   width: 40%;
   text-align: left;
-  padding-left: 25px;
 }
 
 .right-div {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   width: 40%;
   color: rgb(0, 32, 96);
 }
