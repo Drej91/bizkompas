@@ -75,6 +75,22 @@
   display: flex;
   width: 100%;
   justify-content: center;
+  background: rgb(0, 32, 96);
+  background: -webkit-linear-gradient(
+    to right,
+    rgba(238, 238, 238),
+    rgba(0, 32, 96, 0.8)
+  );
+  background: -moz-linear-gradient(
+    to right,
+    rgba(238, 238, 238),
+    rgba(0, 32, 96, 0.8)
+  );
+  background: linear-gradient(
+    to right,
+    rgba(238, 238, 238),
+    rgba(0, 32, 96, 0.8)
+  );
 }
 
 .middleImageDiv {
@@ -97,6 +113,7 @@
   color: #fff;
   top: 50px;
   right: 50px;
+  font-size: 2rem;
 }
 
 .text {
@@ -153,5 +170,6 @@
     color: #fff;
     top: 50px;
     right: 10px;
+    font-size: 1.2rem;
   }
 }
