@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin-top: 50px;
+}
+
+.container p {
+  color: rgb(0, 32, 96);
+}

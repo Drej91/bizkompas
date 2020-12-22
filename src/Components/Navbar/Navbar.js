@@ -40,6 +40,17 @@ const Navbar = () => {
               <p>Novosti</p>
             </Link>
             <Link
+              to="/usefulLinks"
+              className={
+                active === "usefulLinks" ? "active-link" : "navbar-link"
+              }
+              onClick={() => {
+                setActive("usefulLinks");
+              }}
+            >
+              <p>Korisni linkovi</p>
+            </Link>
+            <Link
               to="/aboutUs"
               className={active === "aboutUs" ? "active-link" : "navbar-link"}
               onClick={() => {
@@ -72,6 +83,17 @@ const Navbar = () => {
                 }}
               >
                 <p>Novosti</p>
+              </Link>
+              <Link
+                to="/usefulLinks"
+                className={
+                  active === "usefulLinks" ? "active-link" : "navbar-link"
+                }
+                onClick={() => {
+                  setActive("usefulLinks");
+                }}
+              >
+                <p>Korisni linkovi</p>
               </Link>
               <Link
                 to="/aboutUs"

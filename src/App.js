@@ -7,6 +7,7 @@ import Services from "./Components/Services/Services";
 import HomePage from "./Components/HomePage/HomePage";
 import Footer from "./Components/Footer/Footer";
 import ScrollToTop from "./Components/ScrollToTop";
+import UsefulLinks from "./Components/UsefulLinks/UsefulLinks";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/services" component={Services} />
           <Route path="/aboutUs" component={AboutUs} />
           <Route path="/news" component={News} />
+          <Route path="/usefulLinks" component={UsefulLinks} />
         </Switch>
         <Footer />
       </Router>
