@@ -3,9 +3,37 @@
   flex-direction: column;
   min-height: 100vh;
   margin-top: 50px;
-  justify-content: center;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .container p {
   color: rgb(0, 32, 96);
+}
+
+.titleContainer {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.linksWrapper {
+  margin-top: 20px;
+  border: 1px solid rgb(0, 32, 96);
+  width: 50%;
+}
+
+.singleLinkWrapper {
+  margin-bottom: 5px;
+  border-bottom: 1px solid rgb(0, 32, 96);
+}
+.singleLinkWrapperLast {
+  margin-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+@media only screen and (max-width: 500px) {
+  .linksWrapper {
+    width: 80%;
+  }
 }
