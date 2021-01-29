@@ -6,7 +6,7 @@ const UsefulLinks = () => {
     <div className="container">
       <div className="titleContainer">
         <p className="h2 bold">Korisni linkovi</p>
-        <p>
+        <p className="regular">
           Ovde možete pronaći neke od korisnih linkova koji će vam pomoći
           prilikom otvaranja ili vođenja vašeg biznisa.
         </p>
