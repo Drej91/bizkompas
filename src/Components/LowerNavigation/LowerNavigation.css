@@ -1,0 +1,16 @@
+.lowerNavigationWrapper {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.lowerNavigationWrapper p {
+  color: yellow;
+}
+
+@media only screen and (max-width: 500px) {
+  .lowerNavigationWrapper {
+    flex-direction: column;
+  }
+}

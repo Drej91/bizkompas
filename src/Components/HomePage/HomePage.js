@@ -1,4 +1,5 @@
 import React from "react";
+import LowerNavigation from "../LowerNavigation/LowerNavigation";
 import MainContent from "../MainContent/MainContent";
 import "./HomePage.css";
 
@@ -13,6 +14,7 @@ const HomePage = () => {
           </h1>
         </div>
       </div>
+      <LowerNavigation />
       <MainContent />
     </>
   );

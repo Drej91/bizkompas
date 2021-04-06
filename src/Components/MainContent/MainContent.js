@@ -30,7 +30,7 @@ const MainContent = () => {
                 <p>Knjigovodstvene procedure</p>
               </div>
             </div>
-            <div className="upperCard">
+            <div className="upperCard rightCards">
               <div className="iconWrapper">
                 <FaChartBar className="iconsMainScreen" />
               </div>
@@ -46,7 +46,7 @@ const MainContent = () => {
                 <p>Kontrola troškova</p>
               </div>
             </div>
-            <div className="upperCard">
+            <div className="upperCard rightCards">
               <div className="iconWrapper">
                 <FaUserCheck className="iconsMainScreen" />
               </div>
@@ -62,7 +62,7 @@ const MainContent = () => {
                 <p>Poreski konsalting</p>
               </div>
             </div>
-            <div className="upperCard">
+            <div className="upperCard rightCards">
               <div className="iconWrapper">
                 <FaFile className="iconsMainScreen" />
               </div>

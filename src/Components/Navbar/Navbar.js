@@ -21,7 +21,7 @@ const Navbar = () => {
             </Link>
           </div>
           <div className="links-wrapper right">
-            <Link
+            {/* <Link
               to="/services"
               className={active === "services" ? "active-link" : "navbar-link"}
               onClick={() => {
@@ -29,7 +29,7 @@ const Navbar = () => {
               }}
             >
               <p>Usluge</p>
-            </Link>
+            </Link> */}
             <Link
               to="/news"
               className={active === "contact" ? "active-link" : "navbar-link"}
@@ -39,7 +39,7 @@ const Navbar = () => {
             >
               <p>Novosti</p>
             </Link>
-            <Link
+            {/* <Link
               to="/usefulLinks"
               className={
                 active === "usefulLinks" ? "active-link" : "navbar-link"
@@ -49,7 +49,7 @@ const Navbar = () => {
               }}
             >
               <p>Korisni linkovi</p>
-            </Link>
+            </Link> */}
             <Link
               to="/aboutUs"
               className={active === "aboutUs" ? "active-link" : "navbar-link"}
@@ -62,7 +62,7 @@ const Navbar = () => {
           </div>
           {showMobileNav ? (
             <div className="links-wrapper-mobile right">
-              <Link
+              {/* <Link
                 to="/services"
                 className={
                   active === "services" ? "active-link" : "navbar-link"
@@ -73,7 +73,7 @@ const Navbar = () => {
                 }}
               >
                 <p>Usluge</p>
-              </Link>
+              </Link> */}
               <Link
                 to="/news"
                 className={active === "contact" ? "active-link" : "navbar-link"}
@@ -84,7 +84,7 @@ const Navbar = () => {
               >
                 <p>Novosti</p>
               </Link>
-              <Link
+              {/* <Link
                 to="/usefulLinks"
                 className={
                   active === "usefulLinks" ? "active-link" : "navbar-link"
@@ -94,7 +94,7 @@ const Navbar = () => {
                 }}
               >
                 <p>Korisni linkovi</p>
-              </Link>
+              </Link> */}
               <Link
                 to="/aboutUs"
                 className={active === "aboutUs" ? "active-link" : "navbar-link"}
