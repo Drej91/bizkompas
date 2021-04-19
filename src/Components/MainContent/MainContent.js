@@ -22,52 +22,82 @@ const MainContent = () => {
       <div className="mainContentDiv">
         <div className="upperContentWrapper">
           <div className="upperContent">
-            <div className="upperCard">
-              <div className="iconWrapper">
-                <FaBook className="iconsMainScreen" />
+            <div className="mainContentLeftOption">
+              <div className="upperCard leftCards">
+                <div className="iconWrapper">
+                  <FaBook className="iconsMainScreen" />
+                </div>
+                <div className="cardTitleWrapper">
+                  <p>Knjigovodstvene procedure</p>
+                </div>
               </div>
-              <div className="cardTitleWrapper">
-                <p>Knjigovodstvene procedure</p>
+              <p className="mainTextRight">
+                Organizujte knjigovodstvo u skladu sa Zakonom
+              </p>
+            </div>
+            <div className="mainContentRightOption">
+              <p className="mainContentTextLeft">
+                Proverite profitabilnost i efikasnost Vašeg poslovanja
+              </p>
+              <div className="upperCard rightCards">
+                <div className="iconWrapper">
+                  <FaChartBar className="iconsMainScreen" />
+                </div>
+                <div className="cardTitleWrapper">
+                  <p>Analize poslovanja</p>
+                </div>
               </div>
             </div>
-            <div className="upperCard rightCards">
-              <div className="iconWrapper">
-                <FaChartBar className="iconsMainScreen" />
+            <div className="mainContentLeftOption">
+              <div className="upperCard leftCards">
+                <div className="iconWrapper">
+                  <FaMoneyBillAlt className="iconsMainScreen" />
+                </div>
+                <div className="cardTitleWrapper">
+                  <p>Kontrola troškova</p>
+                </div>
               </div>
-              <div className="cardTitleWrapper">
-                <p>Analize poslovanja</p>
+              <p className="mainTextRight">
+                Previsoki troškovi mogu ugroziti poslovanje
+              </p>
+            </div>
+            <div className="mainContentRightOption">
+              <p className="mainContentTextLeft">
+                Obezbedite efikasnost uz zadovoljstvo Vaših kadrova
+              </p>
+              <div className="upperCard rightCards">
+                <div className="iconWrapper">
+                  <FaUserCheck className="iconsMainScreen" />
+                </div>
+                <div className="cardTitleWrapper">
+                  <p>Kadrovska organizacija</p>
+                </div>
               </div>
             </div>
-            <div className="upperCard">
-              <div className="iconWrapper">
-                <FaMoneyBillAlt className="iconsMainScreen" />
+            <div className="mainContentLeftOption">
+              <div className="upperCard leftCards">
+                <div className="iconWrapper">
+                  <FaCalculator className="iconsMainScreen" />
+                </div>
+                <div className="cardTitleWrapper">
+                  <p>Poreski konsalting</p>
+                </div>
               </div>
-              <div className="cardTitleWrapper">
-                <p>Kontrola troškova</p>
-              </div>
+              <p className="mainTextRight">
+                Porezi se moraju platiti, ali se može i uštedeti
+              </p>
             </div>
-            <div className="upperCard rightCards">
-              <div className="iconWrapper">
-                <FaUserCheck className="iconsMainScreen" />
-              </div>
-              <div className="cardTitleWrapper">
-                <p>Kadrovska organizacija</p>
-              </div>
-            </div>
-            <div className="upperCard">
-              <div className="iconWrapper">
-                <FaCalculator className="iconsMainScreen" />
-              </div>
-              <div className="cardTitleWrapper">
-                <p>Poreski konsalting</p>
-              </div>
-            </div>
-            <div className="upperCard rightCards">
-              <div className="iconWrapper">
-                <FaFile className="iconsMainScreen" />
-              </div>
-              <div className="cardTitleWrapper">
-                <p>Administrativna efikasnost</p>
+            <div className="mainContentRightOption">
+              <p className="mainContentTextLeft">
+                Uštedite vreme gde je moguće
+              </p>
+              <div className="upperCard rightCards">
+                <div className="iconWrapper">
+                  <FaFile className="iconsMainScreen" />
+                </div>
+                <div className="cardTitleWrapper">
+                  <p>Administrativna efikasnost</p>
+                </div>
               </div>
             </div>
           </div>

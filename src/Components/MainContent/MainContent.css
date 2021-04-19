@@ -1,3 +1,21 @@
+@keyframes movingRightDivs {
+  0% {
+    right: -400px;
+  }
+  100% {
+    right: 0px;
+  }
+}
+
+@keyframes movingLeftDivs {
+  0% {
+    left: -400px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
 .mainContent-wrapper {
   display: flex;
   flex-direction: column;
@@ -33,6 +51,28 @@
   margin-bottom: 10px;
 }
 
+.mainContentLeftOption {
+  display: flex;
+  width: 100%;
+  justify-content: left;
+}
+.mainContentRightOption {
+  display: flex;
+  width: 100%;
+  justify-content: right;
+}
+.mainTextRight {
+  font-size: 24px;
+  font-style: italic;
+  align-self: center;
+  margin-left: 50px;
+}
+.mainContentTextLeft {
+  font-size: 24px;
+  font-style: italic;
+  align-self: center;
+  margin-right: 50px;
+}
 .upperCard {
   display: flex;
   width: 30%;
@@ -48,10 +88,16 @@
 
 .leftCards {
   align-self: flex-start;
+  position: relative;
+  animation: movingLeftDivs 2s;
+  animation-direction: normal;
 }
 
 .rightCards {
   align-self: flex-end;
+  position: relative;
+  animation: movingRightDivs 2s;
+  animation-direction: normal;
 }
 
 .iconWrapper {
@@ -60,7 +106,7 @@
   align-items: center;
   width: 100px;
   height: 100px;
-  background-color: lightblue;
+  background-color: black;
   padding: 5px;
   border-radius: 50%;
   margin-top: 20px;
@@ -69,7 +115,7 @@
 .iconsMainScreen {
   height: 50px;
   width: 50px;
-  color: #fff;
+  color: yellow;
 }
 .cardTitleWrapper {
   border-top: 1px solid rgb(0, 32, 96);
