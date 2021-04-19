@@ -10,22 +10,24 @@ const AboutUs = () => {
         <img src={aboutUs} alt="aboutUs" className="aboutUsImg" />
         <div className="aboutUsTextWrapper">
           <p className="regular">
-            Bizkompas je osnovan sa ciljem da kroz konsultacije i edukacije
-            drugih preduzeća, podstakne njihov efikasniji rast i razvoj na
-            tržištu. Neretko male promene u organizaciji poslovanja mogu da
-            donesu veću poslovnu efikasnost preduzeća. Bizkompas nastoji da
-            alocira ove promene koristeći knjigovodstvene i druge raspoložive
-            poslovne podatke . Poslovne analize trenutnih i istorijskih
-            raspoloživih poslovnih podataka mogu doprineti budućem povećanju
-            efikasnosti poslovanja.
+            Bizkompas nastoji da kroz raznovrsni asortiman konsultantskih usluga
+            iz domena računovodstva, poreza, finansija i administracije pruži
+            podršku u upravljanjima poslovnim procesima svojim klijentima.
+            Neretko se upravo u ovim sektorima unutar preuzeća pojavljuju
+            nepotrebni troškovi koji dodatno opterećuju profitabilnost preduzeća
+            i njegovu sposobnost da generiše kapital poteban za dalje
+            investicije i rast na tržištu.
           </p>
           <p className="regular">
-            Bizkompas nastoji i da kroz saradnju sa partnerima, omogući svojim
-            klijentima obavljanje usluga računovodstva, nabavke materijala za
-            svakodnevno poslovanje, izrade veb aplikacija i sajtova, vođenje
-            društvenih mreža i drugi online marketing, prevođenje dokumenata sa
-            i na engleski jezik, kao i vangradski taksi prevoz.
+            Iskustvo u radu sa desetinama preduzeća, tokom 5 godina, pokazalo je
+            da se neretko previdi mogućnost povećanja efikasnosti u sektorima
+            koji ne utiču direktno na prodaju dobara ili usluga. Menadžment
+            preduzeća neretko nema viziju da svi sektori preduzeća čine
+            neophodne karike lanca procesa poslovanja, kao i da se svim
+            sektorima preduzeća mora upravljati i težiti efikasnosti, od prodaje
+            do administracije i računovodstva.
           </p>
+          <p className="regular">Edukujte se blagovremeno, budite spremni!</p>
         </div>
       </div>
     </div>
