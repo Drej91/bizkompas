@@ -1,6 +1,11 @@
 import React from "react";
 import "./Footer.css";
-import { AiTwotonePhone, AiOutlineMail } from "react-icons/ai";
+import {
+  AiOutlineMail,
+  AiFillFacebook,
+  AiFillTwitterCircle,
+  AiFillInstagram,
+} from "react-icons/ai";
 
 const Footer = () => {
   return (
@@ -18,10 +23,21 @@ const Footer = () => {
               <p className="emailFotter ">office@bizkompas.rs</p>
             </a>
           </div>
-          <div className="footerContactWrapper">
+          {/* <div className="footerContactWrapper">
             <AiTwotonePhone />
             <a href="tel:+381 64 3408828">
               <p className="regular  m0">+381 64 3408828</p>
+            </a>
+          </div> */}
+          <div className="socialMediaIconsWrapper">
+            <a href="#">
+              <AiFillFacebook className="socialMediaIcon" />
+            </a>
+            <a href="#">
+              <AiFillTwitterCircle className="socialMediaIcon" />
+            </a>
+            <a href="#">
+              <AiFillInstagram className="socialMediaIcon" />
             </a>
           </div>
         </div>

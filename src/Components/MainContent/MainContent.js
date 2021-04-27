@@ -89,7 +89,7 @@ const MainContent = () => {
             </div>
             <div className="mainContentRightOption">
               <p className="mainContentTextLeft">
-                Uštedite vreme gde je moguće
+                Uštedite vreme gde god je moguće
               </p>
               <div className="upperCard rightCards">
                 <div className="iconWrapper">
