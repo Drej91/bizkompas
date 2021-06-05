@@ -37,7 +37,7 @@ const Navbar = () => {
                 setActive("contact");
               }}
             >
-              <p>Novosti</p>
+              <p>Knjigovodstvene usluge</p>
             </Link>
             {/* <Link
               to="/usefulLinks"
@@ -82,7 +82,7 @@ const Navbar = () => {
                   setMobileNav(false);
                 }}
               >
-                <p>Novosti</p>
+                <p>Knjigovodstvene usluge</p>
               </Link>
               {/* <Link
                 to="/usefulLinks"

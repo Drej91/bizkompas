@@ -2,9 +2,9 @@ import React from "react";
 import "./Footer.css";
 import {
   AiOutlineMail,
-  AiFillFacebook,
-  AiFillTwitterCircle,
-  AiFillInstagram,
+  // AiFillFacebook,
+  // AiFillTwitterCircle,
+  // AiFillInstagram,
 } from "react-icons/ai";
 
 const Footer = () => {
@@ -29,7 +29,7 @@ const Footer = () => {
               <p className="regular  m0">+381 64 3408828</p>
             </a>
           </div> */}
-          <div className="socialMediaIconsWrapper">
+          {/* <div className="socialMediaIconsWrapper">
             <a href="#">
               <AiFillFacebook className="socialMediaIcon" />
             </a>
@@ -39,7 +39,7 @@ const Footer = () => {
             <a href="#">
               <AiFillInstagram className="socialMediaIcon" />
             </a>
-          </div>
+          </div> */}
         </div>
         <div className="right-div">
           <div className="timeWrapper">

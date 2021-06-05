@@ -8,6 +8,7 @@ import HomePage from "./Components/HomePage/HomePage";
 import Footer from "./Components/Footer/Footer";
 import ScrollToTop from "./Components/ScrollToTop";
 import UsefulLinks from "./Components/UsefulLinks/UsefulLinks";
+import NewsDetailsPage from "./Components/NewsDetailsPage/NewsDetailsPage";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/services" component={Services} />
           <Route path="/aboutUs" component={AboutUs} />
           <Route path="/news" component={News} />
+          <Route path="/news:id" component={NewsDetailsPage} />
           <Route path="/usefulLinks" component={UsefulLinks} />
         </Switch>
         <Footer />
