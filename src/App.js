@@ -1,14 +1,14 @@
 import "./App.css";
-import Navbar from "./Components/Navbar/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import AboutUs from "./Components/AboutUs/AboutUs";
-import News from "./Components/News/News";
-import Services from "./Components/Services/Services";
-import HomePage from "./Components/HomePage/HomePage";
-import Footer from "./Components/Footer/Footer";
-import ScrollToTop from "./Components/ScrollToTop";
-import UsefulLinks from "./Components/UsefulLinks/UsefulLinks";
-import NewsDetailsPage from "./Components/NewsDetailsPage/NewsDetailsPage";
+import AboutUs from "./components/AboutUs/AboutUs";
+import News from "./components/News/News";
+import Services from "./components/Services/Services";
+import HomePage from "./components/HomePage/HomePage";
+import Footer from "./components/Footer/Footer";
+import ScrollToTop from "./components/ScrollToTop";
+import UsefulLinks from "./components/UsefulLinks/UsefulLinks";
+import NewsDetailsPage from "./components/NewsDetailsPage/NewsDetailsPage";
 
 function App() {
   return (
