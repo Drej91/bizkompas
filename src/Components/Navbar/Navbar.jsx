@@ -30,7 +30,7 @@ const Navbar = () => {
             >
               <p>Usluge</p>
             </Link> */}
-            <Link
+            {/* <Link
               to="/news"
               className={active === "contact" ? "active-link" : "navbar-link"}
               onClick={() => {
@@ -38,7 +38,7 @@ const Navbar = () => {
               }}
             >
               <p>Knjigovodstvene usluge</p>
-            </Link>
+            </Link> */}
             {/* <Link
               to="/usefulLinks"
               className={
@@ -74,7 +74,7 @@ const Navbar = () => {
               >
                 <p>Usluge</p>
               </Link> */}
-              <Link
+              {/* <Link
                 to="/news"
                 className={active === "contact" ? "active-link" : "navbar-link"}
                 onClick={() => {
@@ -83,7 +83,7 @@ const Navbar = () => {
                 }}
               >
                 <p>Knjigovodstvene usluge</p>
-              </Link>
+              </Link> */}
               {/* <Link
                 to="/usefulLinks"
                 className={

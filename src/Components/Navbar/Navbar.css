@@ -31,9 +31,9 @@
 .links-wrapper {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-end;
   width: 20%;
-  margin-left: auto;
+  padding-right: 40px;
 }
 
 .logoText {

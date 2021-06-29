@@ -6,7 +6,10 @@ const LowerNavigation = () => {
   return (
     <div className="lowerNavigationWrapper">
       <Link to="/services">
-        <p>Konsalting usluge</p>
+        <p>Konsultantske usluge</p>
+      </Link>
+      <Link to="/services">
+        <p>Računovodstvene usluge</p>
       </Link>
       <Link to="/services">
         <p>Biznis podrška</p>
