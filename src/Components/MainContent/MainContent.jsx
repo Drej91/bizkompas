@@ -1,4 +1,5 @@
 import React from "react";
+// import useIsInViewport from 'use-is-in-viewport'
 import "./MainContent.css";
 import {
   FaBook,
@@ -8,14 +9,20 @@ import {
   FaCalculator,
   FaFile,
 } from "react-icons/fa";
+
 import Taxi from "../../assets/categoriesImages/Taxi.jpg";
-import Accountant from "../../assets/categoriesImages/Accountant.jpg";
 import Cosmetics from "../../assets/categoriesImages/Cosmetics.jpg";
 import Dictionary from "../../assets/categoriesImages/Dictionary.jpg";
 import Marketing from "../../assets/categoriesImages/Marketing.jpg";
 import WebDesign from "../../assets/categoriesImages/WebDesign.jpg";
+import Transfer from '../../assets/categoriesImages/Transfer.jpg'
+import Uniform from '../../assets/categoriesImages/Uniform.jpg'
 
 const MainContent = () => {
+  // const [isInViewport, targetRef] = useIsInViewport()
+ 
+
+ 
   return (
     <div className="mainContent-wrapper">
       <p className="h3 bold mainContentTitle">KONSULTANTSKE USLUGE</p>
@@ -23,7 +30,7 @@ const MainContent = () => {
         <div className="upperContentWrapper">
           <div className="upperContent">
             <div className="mainContentLeftOption">
-              <div className="upperCard leftCards">
+              <div className='leftCards upperCard' >
                 <div className="iconWrapper">
                   <FaBook className="iconsMainScreen" />
                 </div>
@@ -39,7 +46,7 @@ const MainContent = () => {
               <p className="mainContentTextLeft">
                 Proverite profitabilnost i efikasnost Vašeg poslovanja
               </p>
-              <div className="upperCard rightCards">
+              <div className='rightCards upperCard'>
                 <div className="iconWrapper">
                   <FaChartBar className="iconsMainScreen" />
                 </div>
@@ -49,7 +56,7 @@ const MainContent = () => {
               </div>
             </div>
             <div className="mainContentLeftOption">
-              <div className="upperCard leftCards">
+              <div className='leftCards upperCard'>
                 <div className="iconWrapper">
                   <FaMoneyBillAlt className="iconsMainScreen" />
                 </div>
@@ -116,13 +123,13 @@ const MainContent = () => {
         raspolaganju usluge poslovnih partnera iz oblasti:
       </p>
       <div className="lowerContent">
-        <div className="lowerCard">
-          <img src={Accountant} alt="Accountant" className="categoryImage" />
-          <p className="h4 subtitles">Računovodstvene usluge</p>
-        </div>
-        <div className="lowerCard">
-          <img src={WebDesign} alt="Accountant" className="categoryImage" />
+       <div className="lowerCard">
+            <img src={WebDesign} alt="Accountant" className="categoryImage" />
           <p className="h4 subtitles">Izrada web sajtova i aplikacija</p>
+        </div> 
+        <div className="lowerCard">
+        <img src={Transfer} alt="Accountant" className="categoryImage" />
+          <p className="h4 subtitles">Transfer robe</p>
         </div>
         <div className="lowerCard">
           <img src={Cosmetics} alt="Cosmetics" className="categoryImage" />
@@ -139,6 +146,10 @@ const MainContent = () => {
         <div className="lowerCard">
           <img src={Taxi} alt="Taxi" className="categoryImage" />
           <p className="h4 subtitles">Taksi vangradski prevoz</p>
+        </div>
+        <div className="lowerCard">
+          <img src={Uniform} alt="Taxi" className="categoryImage" />
+          <p className="h4 subtitles">Izrada poslovnih uniformi</p>
         </div>
       </div>
     </div>

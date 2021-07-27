@@ -83,7 +83,7 @@ const Footer = () => {
               08:00 - 16:00
             </p>
           </div>
-          <div className="timeWrapper">
+          {/* <div className="timeWrapper">
             <p className="regular" style={{ float: "left" }}>
               Subota
             </p>
@@ -98,7 +98,7 @@ const Footer = () => {
             <p className="regular" style={{ float: "right" }}>
               Ne radimo
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="bottom-div">

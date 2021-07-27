@@ -6,6 +6,10 @@
   margin-top: auto;
 }
 
+.footer p {
+  font-weight: bold;
+}
+
 .upperLevelFooter {
   width: 100%;
   display: flex;

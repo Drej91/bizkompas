@@ -6,13 +6,16 @@
   min-height: 100vh;
 }
 
+.aboutUsTextWrapper p {
+  font-size: 1rem;
+}
+
 .content {
   margin-top: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   border-top: 1px solid rgb(0, 32, 96);
   border-bottom: 1px solid rgb(0, 32, 96);
   width: 100%;
@@ -20,7 +23,8 @@
 
 .title {
   font-size: 2.5rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Eras Bold ITC";
+  font-style: italic;
 }
 
 .aboutUsImg {
