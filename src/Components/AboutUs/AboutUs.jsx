@@ -1,12 +1,16 @@
 import React from "react";
 import "./AboutUs.css";
 import aboutUs from "../../assets/Images/aboutUs.jpg";
+import imageLogo from '../../assets/Images/logo2.png';
 
 const AboutUs = () => {
   return (
     <div className="aboutUscontainer">
       <div className="content">
-        <h3 className="title">BIZKOMPAS</h3>
+        {/* <h3 className="title">BIZKOMPAS</h3> */}
+        <div>
+        <img src={imageLogo} alt="logo" className='aboutUsLogo'/>
+        </div>
         <img src={aboutUs} alt="aboutUs" className="aboutUsImg" />
         <div className="aboutUsTextWrapper">
           <p className="regular">

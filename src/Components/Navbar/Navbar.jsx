@@ -3,6 +3,7 @@ import "./Navbar.css";
 import { Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
+import Logo from '../../assets/Images/logo2.png';
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -13,11 +14,12 @@ const Navbar = () => {
         <div className="navbar-container">
           <div className="logo-wrapper left">
             <Link to="/" className="navbar-logo" onClick={() => setActive("")}>
-              <span>
+              {/* <span>
                 <p className="logoText caps font-family-inherit font-size-inherit">
                   Bizkompas
                 </p>
-              </span>
+              </span> */}
+              <img src={Logo} alt="logo"/>
             </Link>
           </div>
           <div className="links-wrapper right">

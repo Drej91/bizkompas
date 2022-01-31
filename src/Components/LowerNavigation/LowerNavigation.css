@@ -6,7 +6,8 @@
 }
 
 .lowerNavigationWrapper p {
-  color: yellow;
+  color: white;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 500px) {

@@ -17,15 +17,21 @@
 }
 .logo-wrapper {
   display: flex;
-  padding-left: 10px;
+  /* padding-left: 10px; */
   padding-right: 10px;
   align-items: center;
+  margin-top: 30px;
 }
 
 .navbar-logo {
   text-decoration: none;
   font-weight: bold;
-  margin-left: 20px;
+  /* margin-left: 10px; */
+}
+
+.navbar-logo img {
+  width: 380px;
+  height: 150px;
 }
 
 .links-wrapper {
@@ -34,6 +40,7 @@
   justify-content: flex-end;
   width: 20%;
   padding-right: 40px;
+  margin-top: 25px;
 }
 
 .logoText {

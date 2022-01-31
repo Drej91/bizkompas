@@ -1,5 +1,4 @@
 import React from "react";
-// import useIsInViewport from 'use-is-in-viewport'
 import "./MainContent.css";
 import {
   FaBook,
@@ -19,10 +18,6 @@ import Transfer from '../../assets/categoriesImages/Transfer.jpg'
 import Uniform from '../../assets/categoriesImages/Uniform.jpg'
 
 const MainContent = () => {
-  // const [isInViewport, targetRef] = useIsInViewport()
- 
-
- 
   return (
     <div className="mainContent-wrapper">
       <p className="h3 bold mainContentTitle">KONSULTANTSKE USLUGE</p>
@@ -126,7 +121,7 @@ const MainContent = () => {
        <div className="lowerCard">
             <img src={WebDesign} alt="Accountant" className="categoryImage" />
           <p className="h4 subtitles">Izrada web sajtova i aplikacija</p>
-        </div> 
+        </div>
         <div className="lowerCard">
         <img src={Transfer} alt="Accountant" className="categoryImage" />
           <p className="h4 subtitles">Transfer robe</p>

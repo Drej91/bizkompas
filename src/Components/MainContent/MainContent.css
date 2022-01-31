@@ -135,7 +135,7 @@
 .iconsMainScreen {
   height: 50px;
   width: 50px;
-  color: yellow;
+  color: #00ffff;
 }
 .cardTitleWrapper {
   border-top: 1px solid black;
@@ -188,8 +188,8 @@
 
 .onImageText {
   position: absolute;
-  color: yellow;
-  top: 50px;
+  color: black;
+  top: 70px;
   right: 50px;
   font-size: 2rem;
   font-weight: bold;
