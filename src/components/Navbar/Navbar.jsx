@@ -6,14 +6,13 @@ import Logo from '../../assets/Images/logo2.png';
 import "./Navbar.css";
 
 const Navbar = () => {
-  const [active, setActive] = useState("");
   const [showMobileNav, setMobileNav] = useState(false);
   return (
     <>
       <nav className="navbar">
         <div className="navbar-container">
           <div className="logo-wrapper left">
-            <a href="/" className="navbar-logo" onClick={() => setActive("")}>
+            <a href="/" className="navbar-logo">
               {/* <span>
                 <p className="logoText caps font-family-inherit font-size-inherit">
                   Bizkompas
