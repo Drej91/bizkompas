@@ -2,40 +2,44 @@
   padding: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  min-height: 100vh;
 }
 
-.aboutUsTextWrapper p {
-  font-size: 1rem;
+.about-us-text {
+  font-size: 20px;
+  font-family: "Outfit";
+  text-align: justify;
 }
 
 .content {
-  margin-top: 50px;
   padding-bottom: 25px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-top: 1px solid rgb(0, 32, 96);
-  border-bottom: 1px solid rgb(0, 32, 96);
   width: 100%;
 }
 
-.title {
-  font-size: 2.5rem;
-  font-family: "Eras Bold ITC";
-  font-style: italic;
-}
-.aboutUsLogo{
-  width: 400px;
-  height: 150px;
+.title-about-us {
+  font-size: 40px;
+  font-family: "Outfit";
+  font-weight: 600;
 }
 
-.aboutUsImg {
-  width: 30%;
-  height: 20%;
-}
 .aboutUsTextWrapper {
-  width: 50%;
+  width: 65%;
+  background-image: url('../../assets/Images/about-us-background.png');
+  background-position: unset;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 500px) {
+  .aboutUsTextWrapper {
+    width: 90%;
+    background-position: center;
+    background-size: contain;
+  }
+  .title-about-us {
+    margin-bottom: 0;
+  }
 }

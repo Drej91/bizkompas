@@ -1,0 +1,68 @@
+.main-services-wrapper {
+ display: flex;
+ background: linear-gradient(183.86deg, rgba(59, 59, 150, 0.07) 36.1%, rgba(217, 217, 217, 0.056) 96.84%);
+ border-radius: 25px;
+ width: 90%;
+ padding-left: 10px;
+ padding-right: 10px;
+ padding-top: 60px;
+ padding-bottom: 25px;
+ margin-bottom: 40px;
+ position: relative;
+}
+
+.main-services-content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main-services-card {
+  display: flex;
+  width: 48%;
+  padding: 10px;
+  margin-bottom: 35px;
+}
+
+.main-services-card img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+
+.main-services-card-right {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 5px;
+}
+
+.main-services-card p {
+  margin: 0;
+}
+
+.main-services-title {
+  font-size: 36px;
+  font-weight: 500;
+  font-family: 'Outfit';
+}
+
+.main-services-desc {
+  color: #1987BE;
+  font-size: 26px;
+  font-family: 'Outfit';
+  font-weight: 300;
+}
+
+.price-btn {
+  position: absolute;
+  background-color: #31ABE0;
+  padding: 10px 20px 10px 20px;
+  border-radius: 15px;
+  bottom: -15px;
+  right: 15px;
+  cursor: pointer;
+  font-family: "Outfit";
+  font-size: 20px;
+  font-weight: 500;
+}

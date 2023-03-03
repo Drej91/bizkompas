@@ -1,151 +1,70 @@
 import React from "react";
 import "./MainContent.css";
-import {
-  FaBook,
-  FaChartBar,
-  FaMoneyBillAlt,
-  FaUserCheck,
-  FaCalculator,
-  FaFile,
-} from "react-icons/fa";
-
-import Taxi from "../../assets/categoriesImages/Taxi.jpg";
-import Cosmetics from "../../assets/categoriesImages/Cosmetics.jpg";
-import Dictionary from "../../assets/categoriesImages/Dictionary.jpg";
-import Marketing from "../../assets/categoriesImages/Marketing.jpg";
-import WebDesign from "../../assets/categoriesImages/WebDesign.jpg";
-import Transfer from '../../assets/categoriesImages/Transfer.jpg'
-import Uniform from '../../assets/categoriesImages/Uniform.jpg'
+import Feniks from '../../assets/logos/Feniks358.png';
+import MainServices from '../MainServices/MainServices';
 
 const MainContent = () => {
   return (
     <div className="mainContent-wrapper">
-      <p className="h3 bold mainContentTitle">KONSULTANTSKE USLUGE</p>
+      <p className="mainContentTitle">Konsultantske i Računovodstvene Usluge</p>
       <div className="mainContentDiv">
-        <div className="upperContentWrapper">
-          <div className="upperContent">
-            <div className="mainContentLeftOption">
-              <div className='leftCards upperCard' >
-                <div className="iconWrapper">
-                  <FaBook className="iconsMainScreen" />
-                </div>
-                <div className="cardTitleWrapper">
-                  <p>Knjigovodstvene procedure</p>
-                </div>
-              </div>
-              <p className="mainTextRight">
-                Organizujte knjigovodstvo u skladu sa Zakonom
-              </p>
-            </div>
-            <div className="mainContentRightOption">
-              <p className="mainContentTextLeft">
-                Proverite profitabilnost i efikasnost Vašeg poslovanja
-              </p>
-              <div className='rightCards upperCard'>
-                <div className="iconWrapper">
-                  <FaChartBar className="iconsMainScreen" />
-                </div>
-                <div className="cardTitleWrapper">
-                  <p>Analize poslovanja</p>
-                </div>
-              </div>
-            </div>
-            <div className="mainContentLeftOption">
-              <div className='leftCards upperCard'>
-                <div className="iconWrapper">
-                  <FaMoneyBillAlt className="iconsMainScreen" />
-                </div>
-                <div className="cardTitleWrapper">
-                  <p>Kontrola troškova</p>
-                </div>
-              </div>
-              <p className="mainTextRight">
-                Previsoki troškovi mogu ugroziti poslovanje
-              </p>
-            </div>
-            <div className="mainContentRightOption">
-              <p className="mainContentTextLeft">
-                Obezbedite efikasnost uz zadovoljstvo Vaših kadrova
-              </p>
-              <div className="upperCard rightCards">
-                <div className="iconWrapper">
-                  <FaUserCheck className="iconsMainScreen" />
-                </div>
-                <div className="cardTitleWrapper">
-                  <p>Kadrovska organizacija</p>
-                </div>
-              </div>
-            </div>
-            <div className="mainContentLeftOption">
-              <div className="upperCard leftCards">
-                <div className="iconWrapper">
-                  <FaCalculator className="iconsMainScreen" />
-                </div>
-                <div className="cardTitleWrapper">
-                  <p>Poreski konsalting</p>
-                </div>
-              </div>
-              <p className="mainTextRight">
-                Porezi se moraju platiti, ali se može i uštedeti
-              </p>
-            </div>
-            <div className="mainContentRightOption">
-              <p className="mainContentTextLeft">
-                Uštedite vreme gde god je moguće
-              </p>
-              <div className="upperCard rightCards">
-                <div className="iconWrapper">
-                  <FaFile className="iconsMainScreen" />
-                </div>
-                <div className="cardTitleWrapper">
-                  <p>Administrativna efikasnost</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <MainServices/>
       </div>
       <div className="middleContentWrapper">
         <div className="middleImageDiv">
-          <p className="regular bold h2 onImageText">
-            Kontaktirajte nas za više informacija: office@bizkompas.rs
+          <div className='onImageText'>
+          <p className="regular">
+            ZAINTERESOVANI ZA SARADNJU?
           </p>
+          <div className='contact-us-wrapper'>
+          <span style={{color: 'black', fontSize: '24px', fontFamily: 'Outfit'}}>Kontaktirajte nas</span>
+          <a href="mailto:office@bizkompas.rs" className='contact-us-btn'>office@bizkompas.rs</a>
+          </div>
+          </div>
         </div>
       </div>
-      <p className="h3 bold mainContentTitle">BIZNIS PODRŠKA</p>
+      <p className="mainContentTitle" style={{marginBottom: 0}}>Biznis Podrška</p>
+      <div className="lower-content-wrapper">
       <p className="regular justify text">
-        U cilju efikasnije poslovne logistike preduzeća, klijentima su na
-        raspolaganju usluge poslovnih partnera iz oblasti:
+      Bizkompas nastoji da kroz istraživanje tržišta kreira asortiman poslovnih saradnika koji u svojoj ponudi imaju najbolju uslugu i dobra, po najpristupačnijim cenama. Naš cilj je da klijentima omogućimo kvalitetnu ponudu preduzeća iz različitih poslovnih delatnosti i time im olakšamo prilikom selekcije dobavljača kroz proces nabavke.
       </p>
-      <div className="lowerContent">
-       <div className="lowerCard">
-            <img src={WebDesign} alt="Accountant" className="categoryImage" />
-          <p className="h4 subtitles">Izrada web sajtova i aplikacija</p>
+      <div id='lower-content' className="lowerContent">
+        <div className="lowerCard">
+          <div className="lower-card-logo-wrapper"><img className="lower-card-logo" alt={"Feniks"} src={Feniks} /></div>
+          <div className="lower-card-content">
+            <p>
+              <strong>Agencija Feniks 358</strong> knjigovodstvena agencija specijalizovana za rad sa mikro i malim biznisima. Njihov kadar odlikuje spoj mladosti i iskustva, a njihova poslovna politika je modernizacija knjigovodstvenih i administrativnih procesa sa ciljem da svojim klijentima donese uštedu i sigurnost u poslovanju.
+            </p>
+            <p>Ukoliko ste zainteresovani za saradnju, možete poslati upit na email adrese: <strong>office@feniks358.rs</strong> ili <strong>office@bizkompas.rs</strong></p>
+          </div>
         </div>
         <div className="lowerCard">
-        <img src={Transfer} alt="Accountant" className="categoryImage" />
-          <p className="h4 subtitles">Transfer robe</p>
+          <div className="lower-card-logo-wrapper"><img className="lower-card-logo" src={Feniks} /></div>
+          <div className="lower-card-content">
+            <p>
+              Advokat Igor M. Vukašinović je specijalizovan za pravno zastupanje prilikom prekršajnih i krivičnih sudskih postupaka, zastupanje pravnih lica i naknade svih vrsta šteta iz oblasti saobraćaja. Svoju advokatsku karijeru je gradio od Javnog Tužilaštva, preko Privrednog suda do saradnje sa velikim advokatskim kancelarijama čime je stekao neprocenjivo iskustvo potrebno za rešavanje kompleksnih sudskih procesa u oblastima trgovinskog prava, krivičnog i prekršajnog prava, a posebno u postupcima za naknadu štete iz saobraćaja.</p>
+            <p>Ukoliko ste zainteresovani za saradnju, možete poslati upit na email adrese: <strong>igorvuksanovic.lawoffice@gmail.com</strong> ili <strong>office@bizkompas.rs</strong></p>
+          </div>
         </div>
         <div className="lowerCard">
-          <img src={Cosmetics} alt="Cosmetics" className="categoryImage" />
-          <p className="h4 subtitles">Nabavka sredstava za hemiju</p>
+          <div className="lower-card-logo-wrapper"><img className="lower-card-logo" src={Feniks} /></div>
+          <div className="lower-card-content">
+            <p>
+              <strong>Agencija Feniks 358</strong> knjigovodstvena agencija specijalizovana za rad sa mikro i malim biznisima. Njihov kadar odlikuje spoj mladosti i iskustva, a njihova poslovna politika je modernizacija knjigovodstvenih i administrativnih procesa sa ciljem da svojim klijentima donese uštedu i sigurnost u poslovanju.
+            </p>
+            <p>Ukoliko ste zainteresovani za saradnju, možete poslati upit na email adrese: office@feniks358.rs ili office@bizkompas.rs</p>
+          </div>
         </div>
         <div className="lowerCard">
-          <img src={Marketing} alt="Marketing" className="categoryImage" />
-          <p className="h4 subtitles">Online marketing</p>
+          <div className="lower-card-logo-wrapper"><img className="lower-card-logo" src={Feniks} /></div>
+          <div className="lower-card-content">
+            <p>
+              <strong>Agencija Feniks 358</strong> knjigovodstvena agencija specijalizovana za rad sa mikro i malim biznisima. Njihov kadar odlikuje spoj mladosti i iskustva, a njihova poslovna politika je modernizacija knjigovodstvenih i administrativnih procesa sa ciljem da svojim klijentima donese uštedu i sigurnost u poslovanju.
+            </p>
+            <p>Ukoliko ste zainteresovani za saradnju, možete poslati upit na email adrese: office@feniks358.rs ili office@bizkompas.rs</p>
+          </div>
         </div>
-        <div className="lowerCard">
-          <img src={Dictionary} alt="Dictionary" className="categoryImage" />
-          <p className="h4 subtitles">Usluge prevođenja – engleski jezik</p>
-        </div>
-        <div className="lowerCard">
-          <img src={Taxi} alt="Taxi" className="categoryImage" />
-          <p className="h4 subtitles">Taksi vangradski prevoz</p>
-        </div>
-        <div className="lowerCard">
-          <img src={Uniform} alt="Taxi" className="categoryImage" />
-          <p className="h4 subtitles">Izrada poslovnih uniformi</p>
-        </div>
+      </div>
       </div>
     </div>
   );

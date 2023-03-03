@@ -1,45 +1,44 @@
 import React from "react";
 import "./Footer.css";
 import {
-  AiOutlineMail,
-  // AiFillFacebook,
-  // AiFillTwitterCircle,
-  // AiFillInstagram,
+  AiFillFacebook,
+  AiFillLinkedin,
+  AiFillInstagram,
 } from "react-icons/ai";
+import footerLogo from '../../assets/Images/logo2.png';
+
 
 const Footer = () => {
   return (
     <div className="footer">
       <div className="upperLevelFooter">
         <div className="left-div">
-          <p className="regular  m0">Bizkompas</p>
-          <br />
-          <p className="regular  m0 justify">
-            Beograd, Milana Blagojevića Španca 13
-          </p>
-          <div className="footerContactWrapper">
-            <AiOutlineMail />
-            <a href="mailto:office@bizkompas.rs">
-              <p className="emailFotter ">office@bizkompas.rs</p>
-            </a>
-          </div>
-          {/* <div className="footerContactWrapper">
-            <AiTwotonePhone />
-            <a href="tel:+381 64 3408828">
-              <p className="regular  m0">+381 64 3408828</p>
-            </a>
-          </div> */}
-          {/* <div className="socialMediaIconsWrapper">
-            <a href="#">
+         <img className='footer-logo' src={footerLogo} alt="logo"/>
+          <div className="socialMediaIconsWrapper">
+            <a href="https://www.facebook.com/profile.php?id=100079910030514" target="_blank">
               <AiFillFacebook className="socialMediaIcon" />
             </a>
-            <a href="#">
-              <AiFillTwitterCircle className="socialMediaIcon" />
+            <a href="https://www.linkedin.com/company/bizkompas/" target="_blank">
+              <AiFillLinkedin className="socialMediaIcon" />
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/bizkompas/" target="_blank">
               <AiFillInstagram className="socialMediaIcon" />
             </a>
-          </div> */}
+          </div>
+        </div>
+        <div className='middle-div'>
+          <p className='middle-div-text bold'>Kontakt:</p>
+          <p className='middle-div-text m0'>Adresa:</p>
+          <p className="regular m0 justify">
+            Beograd, Milana Blagojevića Španca 13
+          </p>
+          <p className='middle-div-text m0 mt1'>Email:</p>
+          {/* <div className="footerContactWrapper"> */}
+            {/* <AiOutlineMail /> */}
+            <a href="mailto:office@bizkompas.rs">
+              <p className="emailFotter middle-div-text m0 bold">office@bizkompas.rs</p>
+            </a>
+          {/* </div> */}
         </div>
         <div className="right-div">
           <div className="timeWrapper">
@@ -83,26 +82,10 @@ const Footer = () => {
               08:00 - 16:00
             </p>
           </div>
-          {/* <div className="timeWrapper">
-            <p className="regular" style={{ float: "left" }}>
-              Subota
-            </p>
-            <p className="regular" style={{ float: "right" }}>
-              Ne radimo
-            </p>
-          </div>
-          <div className="timeWrapper">
-            <p className="regular" style={{ float: "left" }}>
-              Nedelja
-            </p>
-            <p className="regular" style={{ float: "right" }}>
-              Ne radimo
-            </p>
-          </div> */}
         </div>
       </div>
       <div className="bottom-div">
-        <p className="regular">2020 All right reserved – Bizkompas</p>
+        <p className="regular">2022 All right reserved – Bizkompas</p>
         <p className="regular">Created by Mrveks</p>
       </div>
     </div>

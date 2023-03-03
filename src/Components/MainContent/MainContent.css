@@ -1,27 +1,9 @@
-@keyframes movingRightDivs {
-  0% {
-    right: -400px;
-  }
-  100% {
-    right: 0px;
-  }
-}
-
-@keyframes movingLeftDivs {
-  0% {
-    left: -400px;
-  }
-  100% {
-    left: 0px;
-  }
-}
-
 .mainContent-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 10px;
+  /* padding: 10px; */
   margin-top: 20px;
   position: relative;
   min-height: 100vh;
@@ -86,40 +68,6 @@
   background-color: #fff;
 }
 
-.leftCards {
-  align-self: flex-start;
-  position: relative;
-  animation: movingLeftDivs 3s;
-  animation-direction: normal;
-  display: flex;
-  width: 30%;
-  flex-direction: column;
-  margin: 10px;
-  height: 240px;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 5px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  background-color: #fff;
-}
-
-.rightCards {
-  align-self: flex-end;
-  position: relative;
-  animation: movingRightDivs 3s;
-  animation-direction: normal;
-  display: flex;
-  width: 30%;
-  flex-direction: column;
-  margin: 10px;
-  height: 240px;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 5px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  background-color: #fff;
-}
-
 .iconWrapper {
   display: flex;
   justify-content: center;
@@ -142,39 +90,19 @@
   width: 100%;
   color: black;
   font-size: 1.4rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Outfit";
   font-weight: bold;
 }
 .middleContentWrapper {
   display: flex;
   width: 100%;
   justify-content: center;
-  background: -webkit-linear-gradient(
-    to right,
-    rgba(238, 238, 238),
-    rgb(103, 104, 105)
-  );
-  background: -moz-linear-gradient(
-    to right,
-    rgba(238, 238, 238),
-    rgb(101, 101, 102)
-  );
-  background: linear-gradient(
-    to right,
-    rgba(238, 238, 238),
-    rgb(115, 115, 116)
-  );
 }
 
 .middleImageDiv {
-  background-image: linear-gradient(
-      to right,
-      rgba(238, 238, 238, 0),
-      rgba(100, 108, 122, 0.6)
-    ),
-    url("../../assets//Images/middleImage.jpg");
+  background-image: url("../../assets//Images/middleImage.jpg");
   width: 100%;
-  height: 600px;
+  height: 400px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -182,77 +110,113 @@
   justify-content: center;
   margin-bottom: 20px;
   margin-top: 20px;
-  /* border-radius: 10px; */
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .onImageText {
   position: absolute;
-  color: black;
+  color: white;
   top: 70px;
-  right: 50px;
-  font-size: 2rem;
-  font-weight: bold;
+  right: 0;
+  left: 0;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: "Outfit";
 }
 
 .text {
   color: black;
   font-size: 1rem;
+  width: 80%;
+}
+
+.lower-content-wrapper {
+  background: linear-gradient(183.86deg, rgba(59, 59, 150, 0.07) 36.1%, rgba(217, 217, 217, 0.056) 96.84%);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  padding: 10px;
 }
 
 .lowerContent {
   display: flex;
   flex-wrap: wrap;
-  width: 80%;
-  margin-bottom: 50px;
+  width: 100%;
   justify-content: center;
+  margin-bottom: 20px;
 }
 
-.lowerCard {
+/* .lowerCard {
   display: flex;
-  flex: 1 0 30%;
+  width: 18%;
   flex-direction: column;
-  margin: 10px;
   align-items: center;
   justify-content: space-between;
   padding-top: 5px;
+  margin: 30px
+} */
+.lowerCard {
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+  margin: 30px;
+  border: 1px solid black;
+}
+
+.lower-card-logo-wrapper {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.lower-card-logo {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.lower-card-content p {
+  text-align: left;
 }
 
 .categoryImage {
   height: 180px;
-  width: 280px;
+  width: 250px;
   border-radius: 10px;
 }
 
 .mainContentTitle {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 1.5rem;
+  font-family: "Outfit";
+  font-size: 40px;
+  font-weight: 600;  
   color: black;
 }
 
 .subtitles {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Outfit";
   color: black;
   font-weight: bold;
   font-size: 1.1rem;
 }
 
+.contact-us-btn {
+  background-color: #31ABE0;
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 18px;
+  margin-left: 10px;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+  font-family: "Outfit";
+}
+
 @media only screen and (max-width: 500px) {
-  .middleImageDiv {
-    width: 100%;
-    height: 300px;
-    background-position: inherit;
-  }
-
-  .onImageText {
-    position: absolute;
-    color: yellow;
-    top: 50px;
-    right: 10px;
-    font-size: 1.2rem;
-    font-weight: bold;
-  }
-
   .upperCard {
     align-self: center;
     width: 100%;
@@ -272,4 +236,27 @@
     text-align: center;
     margin-right: 0;
   }
+
+  .onImageText {
+    font-size: 30px;
+  }
+
+.contact-us-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+.lowerContent {
+  flex-direction: column;
+  align-items: center;
+}
+
+.lowerCard {
+  width: 80%;
+  align-items: center;
+  margin: 0;
+}
+}
+
+

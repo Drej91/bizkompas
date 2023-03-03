@@ -1,6 +1,6 @@
 import React from "react";
-import LowerNavigation from "../LowerNavigation/LowerNavigation";
 import MainContent from "../MainContent/MainContent";
+import AboutUs from "../AboutUs/AboutUs";
 import "./HomePage.css";
 
 const HomePage = () => {
@@ -8,14 +8,15 @@ const HomePage = () => {
     <>
       <div className="hero-wrapper">
         <div className="hero-content">
-          <h1 className="hero-text">
+          {/* <h1 className="hero-text">
             “Don’t let the fear of losing be greater than the excitement of
             winning.” – Robert Kiyosaki
-          </h1>
+          </h1> */}
+          <h1 className='hero-text'>POSLOVNO SAVETOVANJE I RAČUNOVODSTVENE USLUGE</h1>
         </div>
       </div>
-      <LowerNavigation />
       <MainContent />
+      <AboutUs/>
     </>
   );
 };
