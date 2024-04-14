@@ -12,7 +12,7 @@ const MainContent = () => {
     message: "",
   };
   const [contactData, setContanctData] = useState(defaultFormValue);
-  const [loading, setLoading] = useState(false);
+  // const [loading, setLoading] = useState(false);
   const { showSnackbar } = useSnackbar();
   const form = useRef();
 
@@ -26,7 +26,7 @@ const MainContent = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    setLoading(true);
+    // setLoading(true);
     emailjs
       .sendForm(
         process.env.REACT_APP_EMAILJS_SERVICE_ID,
@@ -49,7 +49,7 @@ const MainContent = () => {
         }
       )
       .then(() => {
-        setLoading(false);
+        // setLoading(false);
         setContanctData(defaultFormValue);
       });
   };

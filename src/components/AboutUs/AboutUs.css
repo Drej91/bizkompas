@@ -17,6 +17,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  background: url("../../assets/Images/about-us-background.png") no-repeat top;
 }
 
 .title-about-us {
@@ -27,9 +28,6 @@
 
 .aboutUsTextWrapper {
   width: 65%;
-  background: url("../../assets/Images/about-us-background.png") no-repeat
-    center;
-  background-size: cover;
 }
 
 @media only screen and (max-width: 500px) {
