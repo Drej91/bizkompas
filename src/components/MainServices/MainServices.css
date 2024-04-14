@@ -1,25 +1,35 @@
 .main-services-wrapper {
- display: flex;
- background: linear-gradient(183.86deg, rgba(59, 59, 150, 0.07) 36.1%, rgba(217, 217, 217, 0.056) 96.84%);
- border-radius: 25px;
- width: 90%;
- padding-left: 10px;
- padding-right: 10px;
- padding-top: 60px;
- padding-bottom: 25px;
- margin-bottom: 40px;
- position: relative;
+  display: flex;
+  background: linear-gradient(
+    183.86deg,
+    rgba(59, 59, 150, 0.07) 36.1%,
+    rgba(217, 217, 217, 0.056) 96.84%
+  );
+  border-radius: 25px;
+  width: 95%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 60px;
+  padding-bottom: 25px;
+  margin-bottom: 40px;
+  position: relative;
 }
 
 .main-services-content-wrapper {
   display: flex;
+  width: 100%;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
+.main-service-subtitle {
+  align-self: center;
+  font-size: 36px;
+}
+
 .main-services-card {
   display: flex;
-  width: 48%;
+  width: 50%;
   padding: 10px;
   margin-bottom: 35px;
 }
@@ -42,21 +52,21 @@
 }
 
 .main-services-title {
-  font-size: 36px;
+  font-size: 20px;
   font-weight: 500;
-  font-family: 'Outfit';
+  font-family: "Outfit";
 }
 
 .main-services-desc {
-  color: #1987BE;
-  font-size: 26px;
-  font-family: 'Outfit';
+  color: #1987be;
+  font-size: 20px;
+  font-family: "Outfit";
   font-weight: 300;
 }
 
 .price-btn {
   position: absolute;
-  background-color: #31ABE0;
+  background-color: #31abe0;
   padding: 10px 20px 10px 20px;
   border-radius: 15px;
   bottom: -15px;
@@ -65,4 +75,20 @@
   font-family: "Outfit";
   font-size: 20px;
   font-weight: 500;
+}
+
+hr.solid {
+  border-top: 3px solid rgb(187, 187, 187);
+  width: 100%;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 500px) {
+  .main-services-content-wrapper {
+    flex-direction: column;
+  }
+
+  .main-services-card {
+    width: 100%;
+  }
 }

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
-import Logo from '../../assets/Images/logo2.png';
+import Logo from "../../assets/logos/bizkompasLogo.svg";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -13,26 +13,21 @@ const Navbar = () => {
         <div className="navbar-container">
           <div className="logo-wrapper left">
             <a href="/" className="navbar-logo">
-              {/* <span>
-                <p className="logoText caps font-family-inherit font-size-inherit">
-                  Bizkompas
-                </p>
-              </span> */}
-              <img src={Logo} alt="logo"/>
+              <img src={Logo} alt="logo" />
             </a>
           </div>
           <div className="links-wrapper right">
-          <Link
-             to="main-services"
-             smooth
-             spy
-             activeClass='active-link'
-             className="navbar-link"
-             offset={-160}
+            <Link
+              to="main-services"
+              smooth
+              spy
+              activeClass="active-link"
+              className="navbar-link"
+              offset={-160}
             >
               <p>Usluge</p>
             </Link>
-            <Link
+            {/* <Link
               to="lower-content"
               smooth
               spy
@@ -41,12 +36,12 @@ const Navbar = () => {
               offset={-200}
             >
               <p>Biznis podrška</p>
-            </Link>
+            </Link> */}
             <Link
               to="about-us"
               smooth
               spy
-              activeClass='active-link'
+              activeClass="active-link"
               className="navbar-link"
               offset={-20}
             >
@@ -56,19 +51,19 @@ const Navbar = () => {
           {showMobileNav ? (
             <div className="links-wrapper-mobile right">
               <Link
-             to="main-services"
-             smooth
-             spy
-             activeClass='active-link'
-             className="navbar-link"
-             offset={-160}
-             onClick={() => {
-              setMobileNav(false);
-            }}
-            >
-              <p>Usluge</p>
-            </Link>
-            <Link
+                to="main-services"
+                smooth
+                spy
+                activeClass="active-link"
+                className="navbar-link"
+                offset={-160}
+                onClick={() => {
+                  setMobileNav(false);
+                }}
+              >
+                <p>Usluge</p>
+              </Link>
+              {/* <Link
               to="lower-content"
               smooth
               spy
@@ -81,21 +76,20 @@ const Navbar = () => {
               }}
             >
               <p>Biznis podrška</p>
-            </Link>
-            <Link
-              to="about-us"
-              smooth
-              spy
-              activeClass='active-link'
-              className="navbar-link"
-              offset={-20}
-              onClick={() => {
-            
-                setMobileNav(false);
-              }}
-            >
-              <p>O nama</p>
-            </Link>
+            </Link> */}
+              <Link
+                to="about-us"
+                smooth
+                spy
+                activeClass="active-link"
+                className="navbar-link"
+                offset={-20}
+                onClick={() => {
+                  setMobileNav(false);
+                }}
+              >
+                <p>O nama</p>
+              </Link>
             </div>
           ) : null}
           {showMobileNav ? (

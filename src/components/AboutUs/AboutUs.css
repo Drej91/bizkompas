@@ -20,16 +20,15 @@
 }
 
 .title-about-us {
-  font-size: 40px;
+  font-size: 28px;
   font-family: "Outfit";
   font-weight: 600;
 }
 
 .aboutUsTextWrapper {
   width: 65%;
-  background-image: url('../../assets/Images/about-us-background.png');
-  background-position: unset;
-  background-repeat: no-repeat;
+  background: url("../../assets/Images/about-us-background.png") no-repeat
+    center;
   background-size: cover;
 }
 

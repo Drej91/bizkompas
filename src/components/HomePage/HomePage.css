@@ -27,8 +27,11 @@
 }
 
 @media only screen and (max-width: 500px) {
+  .hero-content {
+    width: 85%;
+  }
   .hero-text {
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 20px;
   }
 }

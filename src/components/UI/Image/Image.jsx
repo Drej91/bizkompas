@@ -1,22 +1,12 @@
-import useImage from '../../../hooks/useImage';
+import useImage from "../../../hooks/useImage";
 
 const Image = ({ fileName, ...rest }) => {
-    const { loading, image } = useImage(fileName)
+  const { loading, image } = useImage(fileName);
+  return (
+    <>
+      {loading ? <div>loading</div> : <img src={image} alt={image} {...rest} />}
+    </>
+  );
+};
 
-
-    return (
-        <>
-            {loading ? (
-                <div>loading</div>
-            ) : (
-                <img
-                    src={image}
-                    alt={image}
-                    {...rest}
-                />
-            )}
-        </>
-    )
-}
-
-export default Image
+export default Image;

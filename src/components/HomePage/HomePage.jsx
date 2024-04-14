@@ -8,15 +8,11 @@ const HomePage = () => {
     <>
       <div className="hero-wrapper">
         <div className="hero-content">
-          {/* <h1 className="hero-text">
-            “Don’t let the fear of losing be greater than the excitement of
-            winning.” – Robert Kiyosaki
-          </h1> */}
-          <h1 className='hero-text'>POSLOVNO SAVETOVANJE I RAČUNOVODSTVENE USLUGE</h1>
+          <h1 className="hero-text">AGENCIJA ZA POSLOVNI KONSALTING</h1>
         </div>
       </div>
       <MainContent />
-      <AboutUs/>
+      <AboutUs />
     </>
   );
 };
